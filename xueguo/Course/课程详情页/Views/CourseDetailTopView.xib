@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CourseDetailTopView" customModule="xueguo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="73"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETb-oE-zbe">
+                    <rect key="frame" x="0.0" y="0.0" width="139.5" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8XM-s0-jqh">
+                            <rect key="frame" x="0.0" y="0.0" width="139.5" height="65"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="15"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="课程信息">
+                                <color key="titleColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnActionLeft:" destination="iN0-l3-epB" eventType="touchUpInside" id="xpu-OI-zd0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8XM-s0-jqh" secondAttribute="trailing" id="53F-di-4Xf"/>
+                        <constraint firstItem="8XM-s0-jqh" firstAttribute="leading" secondItem="ETb-oE-zbe" secondAttribute="leading" id="B91-lU-ues"/>
+                        <constraint firstAttribute="bottom" secondItem="8XM-s0-jqh" secondAttribute="bottom" id="VGY-qy-Yo8"/>
+                        <constraint firstItem="8XM-s0-jqh" firstAttribute="top" secondItem="ETb-oE-zbe" secondAttribute="top" id="zOv-lo-4u1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-pw-BPp">
+                    <rect key="frame" x="139.5" y="0.0" width="139" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-R2-U1P">
+                            <rect key="frame" x="0.0" y="0.0" width="139" height="65"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="15"/>
+                            <state key="normal" title="课程成果">
+                                <color key="titleColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnActionMid:" destination="iN0-l3-epB" eventType="touchUpInside" id="7bL-4g-SWI"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PsK-3Y-yh4">
+                            <rect key="frame" x="95.5" y="37" width="8" height="8"/>
+                            <color key="backgroundColor" red="0.8666666666666667" green="0.34901960784313724" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="8" id="Okx-y3-eWq"/>
+                                <constraint firstAttribute="height" constant="8" id="w6d-Dz-Ein"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7X1-R2-U1P" secondAttribute="trailing" id="1vt-xW-gDU"/>
+                        <constraint firstItem="PsK-3Y-yh4" firstAttribute="centerX" secondItem="Ds1-pw-BPp" secondAttribute="centerX" constant="30" id="Ahp-2f-cEN"/>
+                        <constraint firstItem="7X1-R2-U1P" firstAttribute="leading" secondItem="Ds1-pw-BPp" secondAttribute="leading" id="Csv-md-wpS"/>
+                        <constraint firstItem="7X1-R2-U1P" firstAttribute="top" secondItem="Ds1-pw-BPp" secondAttribute="top" id="DQM-h9-OKL"/>
+                        <constraint firstAttribute="bottom" secondItem="PsK-3Y-yh4" secondAttribute="bottom" constant="20" id="otj-rd-nXw"/>
+                        <constraint firstAttribute="bottom" secondItem="7X1-R2-U1P" secondAttribute="bottom" id="rzT-j9-hBf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGr-4S-rHk">
+                    <rect key="frame" x="278.5" y="0.0" width="139.5" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72k-aP-BZf">
+                            <rect key="frame" x="0.0" y="0.0" width="139.5" height="65"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="15"/>
+                            <state key="normal" title="课件资料">
+                                <color key="titleColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnActionRight:" destination="iN0-l3-epB" eventType="touchUpInside" id="59K-1E-IG1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="72k-aP-BZf" secondAttribute="trailing" id="1g7-rt-gTM"/>
+                        <constraint firstAttribute="bottom" secondItem="72k-aP-BZf" secondAttribute="bottom" id="30V-0k-bav"/>
+                        <constraint firstItem="72k-aP-BZf" firstAttribute="leading" secondItem="WGr-4S-rHk" secondAttribute="leading" id="Lfe-LA-fxk"/>
+                        <constraint firstItem="72k-aP-BZf" firstAttribute="top" secondItem="WGr-4S-rHk" secondAttribute="top" id="a0X-mK-1QE"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FG4-XO-68N">
+                    <rect key="frame" x="57" y="69" width="25" height="4"/>
+                    <color key="backgroundColor" red="0.34901960784313724" green="0.78823529411764703" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="Mv4-Jb-TcQ"/>
+                        <constraint firstAttribute="width" constant="25" id="jXp-Wv-ffG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ds1-pw-BPp" firstAttribute="leading" secondItem="ETb-oE-zbe" secondAttribute="trailing" id="1qC-og-I9p"/>
+                <constraint firstAttribute="bottom" secondItem="ETb-oE-zbe" secondAttribute="bottom" constant="8" id="26H-kT-wQv"/>
+                <constraint firstAttribute="bottom" secondItem="Ds1-pw-BPp" secondAttribute="bottom" constant="8" id="7SL-iU-3Zk"/>
+                <constraint firstAttribute="trailing" secondItem="WGr-4S-rHk" secondAttribute="trailing" id="MWN-5R-d8v"/>
+                <constraint firstItem="WGr-4S-rHk" firstAttribute="width" secondItem="Ds1-pw-BPp" secondAttribute="width" id="Sm0-D2-YTU"/>
+                <constraint firstItem="WGr-4S-rHk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="W20-Bz-rJq"/>
+                <constraint firstItem="Ds1-pw-BPp" firstAttribute="leading" secondItem="ETb-oE-zbe" secondAttribute="trailing" id="XuT-Uj-wPn"/>
+                <constraint firstItem="Ds1-pw-BPp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZUp-pF-1SO"/>
+                <constraint firstItem="WGr-4S-rHk" firstAttribute="leading" secondItem="Ds1-pw-BPp" secondAttribute="trailing" id="b33-TP-OlE"/>
+                <constraint firstItem="ETb-oE-zbe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cHO-DW-PwU"/>
+                <constraint firstItem="WGr-4S-rHk" firstAttribute="leading" secondItem="Ds1-pw-BPp" secondAttribute="trailing" id="fAK-2h-kaW"/>
+                <constraint firstItem="ETb-oE-zbe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iE9-lV-wPg"/>
+                <constraint firstAttribute="bottom" secondItem="FG4-XO-68N" secondAttribute="bottom" id="lSc-at-pmn"/>
+                <constraint firstAttribute="bottom" secondItem="WGr-4S-rHk" secondAttribute="bottom" constant="8" id="sPy-fC-Xvf"/>
+                <constraint firstItem="ETb-oE-zbe" firstAttribute="width" secondItem="Ds1-pw-BPp" secondAttribute="width" id="tks-BD-gLB"/>
+                <constraint firstItem="FG4-XO-68N" firstAttribute="centerX" secondItem="ETb-oE-zbe" secondAttribute="centerX" id="wcn-Ba-myU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ZGs-yQ-99O"/>
+            <connections>
+                <outlet property="btnL" destination="8XM-s0-jqh" id="xhQ-Dz-UNf"/>
+                <outlet property="btnM" destination="7X1-R2-U1P" id="GwK-Dq-Mqb"/>
+                <outlet property="btnR" destination="72k-aP-BZf" id="iwo-FF-JnV"/>
+                <outlet property="viewFlag" destination="FG4-XO-68N" id="MI1-oQ-1TX"/>
+                <outlet property="viewL" destination="ETb-oE-zbe" id="tuk-Bg-NhC"/>
+                <outlet property="viewM" destination="Ds1-pw-BPp" id="gsm-MB-if4"/>
+                <outlet property="viewR" destination="WGr-4S-rHk" id="wjy-Sk-XHu"/>
+                <outlet property="viewRedPoint" destination="PsK-3Y-yh4" id="e2I-OH-Mte"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="92.075892857142847"/>
+        </view>
+    </objects>
+</document>

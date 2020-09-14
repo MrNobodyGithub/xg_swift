@@ -1,0 +1,6 @@
+framework module Pods_xueguo {
+  umbrella header "Pods-xueguo-umbrella.h"
+
+  export *
+  module * { export * }
+}

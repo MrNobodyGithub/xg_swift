@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QANullView" customModule="xueguo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="null_qa" translatesAutoresizingMaskIntoConstraints="NO" id="oHe-1p-8Iq">
+                    <rect key="frame" x="118.5" y="40" width="177" height="118"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="177" id="WHh-Hn-3B8"/>
+                        <constraint firstAttribute="height" constant="118" id="ypM-dN-sX3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZ6-oN-kc9">
+                    <rect key="frame" x="176" y="173" width="62" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7s6-Cm-hBz"/>
+                    </constraints>
+                    <string key="text">暂无记录
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.65490196078431373" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发起提问，让老师帮你解答吧。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdD-sq-nyt">
+                    <rect key="frame" x="90.5" y="224" width="233" height="33"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.95686274509803915" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="233" id="0Z6-6K-c6r"/>
+                        <constraint firstAttribute="height" constant="33" id="vTS-3w-YQd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.61960784313725492" green="0.8784313725490196" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oHe-1p-8Iq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="0vy-Qd-fWi"/>
+                <constraint firstItem="kZ6-oN-kc9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AUO-Fj-2hJ"/>
+                <constraint firstItem="SdD-sq-nyt" firstAttribute="top" secondItem="kZ6-oN-kc9" secondAttribute="bottom" constant="31" id="L4E-1i-QuO"/>
+                <constraint firstItem="SdD-sq-nyt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vA4-5v-eW1"/>
+                <constraint firstItem="kZ6-oN-kc9" firstAttribute="top" secondItem="oHe-1p-8Iq" secondAttribute="bottom" constant="15" id="wY4-4Q-ebG"/>
+                <constraint firstItem="oHe-1p-8Iq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xMt-gi-wXA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="labText" destination="SdD-sq-nyt" id="qSz-ie-zE1"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="null_qa" width="176.5" height="117.5"/>
+    </resources>
+</document>

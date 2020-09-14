@@ -1,0 +1,1876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850535AC22B928A7007EF8D8 /* WorkDetailGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850535AB22B928A7007EF8D8 /* WorkDetailGroupView.swift */; };
+		850535AE22B928AF007EF8D8 /* WorkDetailGroupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850535AD22B928AF007EF8D8 /* WorkDetailGroupView.xib */; };
+		850535B022B92B32007EF8D8 /* WorkDetailGroupMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850535AF22B92B32007EF8D8 /* WorkDetailGroupMemberView.swift */; };
+		850535B222B92B46007EF8D8 /* WorkDetailGroupMemberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850535B122B92B46007EF8D8 /* WorkDetailGroupMemberView.xib */; };
+		850608C92301B85C00B9AFCC /* SeeFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850608C82301B85C00B9AFCC /* SeeFileViewController.swift */; };
+		850747B22305A15700BFEF6F /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850747B12305A15700BFEF6F /* QuickLook.framework */; };
+		850E26F822D97D810096231C /* MyHonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850E26F722D97D810096231C /* MyHonorViewController.swift */; };
+		850E26FB22D97EE90096231C /* HonorNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850E26FA22D97EE90096231C /* HonorNavView.swift */; };
+		850E26FD22D97EF20096231C /* HonorNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850E26FC22D97EF20096231C /* HonorNavView.xib */; };
+		850E26FF22D983CD0096231C /* HonorSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850E26FE22D983CD0096231C /* HonorSectionView.swift */; };
+		8515005522E81E6A0045D698 /* CourseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515005422E81E6A0045D698 /* CourseTool.swift */; };
+		8515005722E820580045D698 /* ParamCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515005622E820580045D698 /* ParamCourse.swift */; };
+		8515005922E820620045D698 /* ResultCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515005822E820620045D698 /* ResultCourse.swift */; };
+		8515B90E22B211FB002A1A34 /* CourseTaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515B90D22B211FB002A1A34 /* CourseTaskDetailViewController.swift */; };
+		8515B92E22B24B40002A1A34 /* WorkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515B92D22B24B40002A1A34 /* WorkDetailViewController.swift */; };
+		851F56A323239B37009E349E /* CourseDetailMidMessageViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F56A123239B37009E349E /* CourseDetailMidMessageViewTableViewCell.swift */; };
+		851F56A423239B37009E349E /* CourseDetailMidMessageViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851F56A223239B37009E349E /* CourseDetailMidMessageViewTableViewCell.xib */; };
+		851F56A723239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F56A523239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.swift */; };
+		851F56A823239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851F56A623239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.xib */; };
+		8522CD4223260D1900ED9562 /* SearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522CD4123260D1800ED9562 /* SearchHistoryView.swift */; };
+		8522CD4623260D3300ED9562 /* SearchHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8522CD4523260D3300ED9562 /* SearchHistoryView.xib */; };
+		852B712F229D311E00D734E6 /* QATool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B712E229D311E00D734E6 /* QATool.swift */; };
+		852B7131229D33B600D734E6 /* ResultQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B7130229D33B600D734E6 /* ResultQA.swift */; };
+		853002B722E2BCE000D03EC6 /* AddHonorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002B522E2BCE000D03EC6 /* AddHonorCollectionViewCell.swift */; };
+		853002B822E2BCE000D03EC6 /* AddHonorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853002B622E2BCE000D03EC6 /* AddHonorCollectionViewCell.xib */; };
+		853002BB22E2C60500D03EC6 /* ParamHonor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002BA22E2C60500D03EC6 /* ParamHonor.swift */; };
+		853002BD22E2C61000D03EC6 /* ResultHonor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002BC22E2C61000D03EC6 /* ResultHonor.swift */; };
+		853002C122E2EE0400D03EC6 /* HonorUploadSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002C022E2EE0400D03EC6 /* HonorUploadSuccessView.swift */; };
+		853002C322E2EE0C00D03EC6 /* HonorUploadSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853002C222E2EE0C00D03EC6 /* HonorUploadSuccessView.xib */; };
+		853002C722E2F20800D03EC6 /* HonorUploadSucViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002C622E2F20800D03EC6 /* HonorUploadSucViewController.swift */; };
+		853002C922E2F2D600D03EC6 /* HonorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002C822E2F2D600D03EC6 /* HonorDetailViewController.swift */; };
+		853002CB22E2F3F400D03EC6 /* HonorDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853002CA22E2F3F400D03EC6 /* HonorDetailInfoView.swift */; };
+		853002CD22E2F47100D03EC6 /* HonorDetailInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853002CC22E2F47100D03EC6 /* HonorDetailInfoView.xib */; };
+		853200C1229C1BFA00EBC29A /* QADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853200C0229C1BFA00EBC29A /* QADetailViewController.swift */; };
+		853200C4229C1CB200EBC29A /* QAAnsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853200C2229C1CB200EBC29A /* QAAnsTableViewCell.swift */; };
+		853200C5229C1CB200EBC29A /* QAAnsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853200C3229C1CB200EBC29A /* QAAnsTableViewCell.xib */; };
+		853200C8229C1CC600EBC29A /* QAAskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853200C6229C1CC600EBC29A /* QAAskTableViewCell.swift */; };
+		853200C9229C1CC600EBC29A /* QAAskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853200C7229C1CC600EBC29A /* QAAskTableViewCell.xib */; };
+		853200CB229C23F800EBC29A /* QAAskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853200CA229C23F800EBC29A /* QAAskView.swift */; };
+		853200CD229C240300EBC29A /* QAAskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853200CC229C240300EBC29A /* QAAskView.xib */; };
+		85380647229505C3003A119A /* MeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85380646229505C3003A119A /* MeTool.swift */; };
+		853806492295067E003A119A /* ResultMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853806482295067E003A119A /* ResultMe.swift */; };
+		8538064B2295069A003A119A /* ParamMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538064A2295069A003A119A /* ParamMe.swift */; };
+		8538065222953DCC003A119A /* HomeResListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538065122953DCC003A119A /* HomeResListViewController.swift */; };
+		8538065522954058003A119A /* HomeResListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538065322954057003A119A /* HomeResListTableViewCell.swift */; };
+		8538065622954058003A119A /* HomeResListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8538065422954057003A119A /* HomeResListTableViewCell.xib */; };
+		853C6E10229E152E00D19DA6 /* ParamQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C6E0F229E152E00D19DA6 /* ParamQA.swift */; };
+		853CE580229B765100AC70A6 /* BaseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE57F229B765100AC70A6 /* BaseStruct.swift */; };
+		853CE584229B931700AC70A6 /* justForBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 853CE583229B931700AC70A6 /* justForBridge.m */; };
+		853CE586229BB1E900AC70A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE585229BB1E800AC70A6 /* CoreGraphics.framework */; };
+		853CE588229BB1F200AC70A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE587229BB1F200AC70A6 /* libsqlite3.tbd */; };
+		853CE58A229BB21600AC70A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE589229BB21600AC70A6 /* SystemConfiguration.framework */; };
+		853CE58C229BB21D00AC70A6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE58B229BB21D00AC70A6 /* CoreTelephony.framework */; };
+		853CE58E229BB22600AC70A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE58D229BB22600AC70A6 /* libz.tbd */; };
+		853CE590229BB23000AC70A6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE58F229BB23000AC70A6 /* libc++.tbd */; };
+		853CE592229BB24300AC70A6 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CE591229BB24300AC70A6 /* Photos.framework */; };
+		853CE598229BBA5900AC70A6 /* QATopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE597229BBA5900AC70A6 /* QATopView.swift */; };
+		853CE59A229BBA5E00AC70A6 /* QATopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853CE599229BBA5E00AC70A6 /* QATopView.xib */; };
+		853CE59D229BBF4000AC70A6 /* QAListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE59B229BBF4000AC70A6 /* QAListTableViewCell.swift */; };
+		853CE59E229BBF4000AC70A6 /* QAListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853CE59C229BBF4000AC70A6 /* QAListTableViewCell.xib */; };
+		853CE5A0229BC1F300AC70A6 /* QAMidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE59F229BC1F300AC70A6 /* QAMidView.swift */; };
+		853CE5A2229BC1FC00AC70A6 /* QAMidView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853CE5A1229BC1FC00AC70A6 /* QAMidView.xib */; };
+		853CE5A4229BDB2600AC70A6 /* QANullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE5A3229BDB2600AC70A6 /* QANullView.swift */; };
+		853CE5A6229BDB2E00AC70A6 /* QANullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853CE5A5229BDB2E00AC70A6 /* QANullView.xib */; };
+		853CE5B0229BE84D00AC70A6 /* QAAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CE5AF229BE84D00AC70A6 /* QAAddViewController.swift */; };
+		8544930A227199250019209A /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85449309227199250019209A /* HomeTopView.swift */; };
+		8544930C227199300019209A /* HomeTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8544930B227199300019209A /* HomeTopView.xib */; };
+		8545E54A22A603DD00EE09E8 /* CourseDetailMidHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545E54922A603DD00EE09E8 /* CourseDetailMidHeaderView.swift */; };
+		8545E54C22A603E300EE09E8 /* CourseDetailMidHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8545E54B22A603E300EE09E8 /* CourseDetailMidHeaderView.xib */; };
+		8545E56722A62EAB00EE09E8 /* CourseEvaluateTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545E56622A62EAB00EE09E8 /* CourseEvaluateTopView.swift */; };
+		8545E56922A62EB500EE09E8 /* CourseEvaluateTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8545E56822A62EB500EE09E8 /* CourseEvaluateTopView.xib */; };
+		8545E56C22A6318E00EE09E8 /* CourseEvaluateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545E56A22A6318E00EE09E8 /* CourseEvaluateTableViewCell.swift */; };
+		8545E56D22A6318E00EE09E8 /* CourseEvaluateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8545E56B22A6318E00EE09E8 /* CourseEvaluateTableViewCell.xib */; };
+		8545E56F22A6340900EE09E8 /* CourseEvaluateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8545E56E22A6340900EE09E8 /* CourseEvaluateHeaderView.swift */; };
+		8545E57122A6340F00EE09E8 /* CourseEvaluateHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8545E57022A6340F00EE09E8 /* CourseEvaluateHeaderView.xib */; };
+		85549C40229FB1A3008F56BC /* CourseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85549C3E229FB1A3008F56BC /* CourseListTableViewCell.swift */; };
+		85549C41229FB1A3008F56BC /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85549C3F229FB1A3008F56BC /* CourseListTableViewCell.xib */; };
+		85549C48229FB1DD008F56BC /* CourseListProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85549C46229FB1DD008F56BC /* CourseListProgressTableViewCell.swift */; };
+		85549C49229FB1DD008F56BC /* CourseListProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85549C47229FB1DD008F56BC /* CourseListProgressTableViewCell.xib */; };
+		85549C4C229FC6C8008F56BC /* CourseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85549C4A229FC6C8008F56BC /* CourseDetailViewController.swift */; };
+		85549C4F229FC8F3008F56BC /* CourseDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85549C4E229FC8F3008F56BC /* CourseDetailTopView.swift */; };
+		85549C51229FC8FF008F56BC /* CourseDetailTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85549C50229FC8FF008F56BC /* CourseDetailTopView.xib */; };
+		855BED8F2325512F00FFCB6E /* CourseTaskDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BED8D2325512F00FFCB6E /* CourseTaskDetailTableViewCell.swift */; };
+		855BED902325512F00FFCB6E /* CourseTaskDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855BED8E2325512F00FFCB6E /* CourseTaskDetailTableViewCell.xib */; };
+		855BED92232551DB00FFCB6E /* CourseTaskDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BED91232551DB00FFCB6E /* CourseTaskDetailHeaderView.swift */; };
+		855BED94232551E900FFCB6E /* CourseTaskDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855BED93232551E900FFCB6E /* CourseTaskDetailHeaderView.xib */; };
+		855BED9823256E8C00FFCB6E /* HomeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BED9623256E8C00FFCB6E /* HomeSearchViewController.swift */; };
+		855BED9923256E8C00FFCB6E /* HomeSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855BED9723256E8C00FFCB6E /* HomeSearchViewController.xib */; };
+		8560CE8522A0F9170079DB0C /* CourseDetailStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560CE8422A0F9170079DB0C /* CourseDetailStructViewController.swift */; };
+		8560CE8922A0FADA0079DB0C /* CourseDetailStructSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560CE8822A0FADA0079DB0C /* CourseDetailStructSectionView.swift */; };
+		8560CE8D22A0FAEA0079DB0C /* CourseDetailStructSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560CE8C22A0FAEA0079DB0C /* CourseDetailStructSectionView.xib */; };
+		8560CE8F22A100EA0079DB0C /* CourseDetailStructCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560CE8E22A100EA0079DB0C /* CourseDetailStructCellView.swift */; };
+		8560CE9122A100F60079DB0C /* CourseDetailStructCellViewSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560CE9022A100F60079DB0C /* CourseDetailStructCellViewSec.swift */; };
+		8560CE9322A101010079DB0C /* CourseDetailStructCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560CE9222A101010079DB0C /* CourseDetailStructCellView.xib */; };
+		8560CE9522A1076E0079DB0C /* CourseDetailStructCellViewSec.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560CE9422A1076E0079DB0C /* CourseDetailStructCellViewSec.xib */; };
+		8560CE9722A11DF90079DB0C /* CourseEvaluateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8560CE9622A11DF90079DB0C /* CourseEvaluateViewController.swift */; };
+		856612EE22B137E90015E168 /* CourseDetailMidMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856612ED22B137E90015E168 /* CourseDetailMidMessageView.swift */; };
+		856612F022B137F10015E168 /* CourseDetailMidMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856612EF22B137F10015E168 /* CourseDetailMidMessageView.xib */; };
+		8569500522A012380021CAC8 /* CourseDetailLeftMyGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569500422A012370021CAC8 /* CourseDetailLeftMyGradeView.swift */; };
+		8569500722A012400021CAC8 /* CourseDetailLeftMyGradeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8569500622A012400021CAC8 /* CourseDetailLeftMyGradeView.xib */; };
+		8569500922A0192E0021CAC8 /* CourseDetailSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569500822A0192E0021CAC8 /* CourseDetailSectionView.swift */; };
+		8569500B22A019370021CAC8 /* CourseDetailSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8569500A22A019370021CAC8 /* CourseDetailSectionView.xib */; };
+		8569500D22A01E330021CAC8 /* CourseDetailLeftTeachersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569500C22A01E330021CAC8 /* CourseDetailLeftTeachersView.swift */; };
+		8569500F22A01E3A0021CAC8 /* CourseDetailLeftTeachersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8569500E22A01E3A0021CAC8 /* CourseDetailLeftTeachersView.xib */; };
+		856A414822B8A5BA00349B47 /* WorkDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856A414722B8A5BA00349B47 /* WorkDetailTopView.swift */; };
+		856A414A22B8A5C100349B47 /* WorkDetailTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856A414922B8A5C100349B47 /* WorkDetailTopView.xib */; };
+		857086E72303C908000E6269 /* xg_question.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857086E62303C908000E6269 /* xg_question.txt */; };
+		8571943922FFDFAC00806964 /* CusObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8571943822FFDFAC00806964 /* CusObject.swift */; };
+		8575E6EA2292603900B12CFB /* TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575E6E92292603800B12CFB /* TEST.swift */; };
+		8575E6ED2292753D00B12CFB /* LoginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575E6EC2292753D00B12CFB /* LoginTool.swift */; };
+		8575E6EF2292786900B12CFB /* ResultLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575E6EE2292786900B12CFB /* ResultLogin.swift */; };
+		8575E6F12292787B00B12CFB /* ParamLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575E6F02292787B00B12CFB /* ParamLogin.swift */; };
+		8584A8DF230923F100651B1A /* tmp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8584A8DE230923F000651B1A /* tmp2.png */; };
+		858731B1226ECA9200480261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731B0226ECA9200480261 /* AppDelegate.swift */; };
+		858731B3226ECA9200480261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731B2226ECA9200480261 /* ViewController.swift */; };
+		858731B6226ECA9200480261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858731B4226ECA9200480261 /* Main.storyboard */; };
+		858731B8226ECA9300480261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858731B7226ECA9300480261 /* Assets.xcassets */; };
+		858731BB226ECA9300480261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858731B9226ECA9300480261 /* LaunchScreen.storyboard */; };
+		858731C6226ECA9300480261 /* xueguoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731C5226ECA9300480261 /* xueguoTests.swift */; };
+		858731D1226ECB5000480261 /* GlobalMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731D0226ECB5000480261 /* GlobalMacro.swift */; };
+		858731DB226EE28100480261 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731DA226EE28100480261 /* HomeViewController.swift */; };
+		858731DD226EE28A00480261 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731DC226EE28A00480261 /* CourseViewController.swift */; };
+		858731DF226EE29700480261 /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731DE226EE29700480261 /* QAViewController.swift */; };
+		858731E1226EE2A100480261 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731E0226EE2A100480261 /* MeViewController.swift */; };
+		858731E3226EE36700480261 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858731E2226EE36700480261 /* RootViewController.swift */; };
+		8588A54A2337CC7100DAD3A7 /* CourseDetailMidTeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8588A5492337CC7100DAD3A7 /* CourseDetailMidTeacherView.swift */; };
+		8588A54D2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8588A54B2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.swift */; };
+		8588A54E2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8588A54C2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.xib */; };
+		858C92C82309B3E800589AAA /* ManagerAliOss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858C92C72309B3E800589AAA /* ManagerAliOss.swift */; };
+		859E662622977B71008DB601 /* MeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E662422977B71008DB601 /* MeSettingViewController.swift */; };
+		859E662722977B71008DB601 /* MeSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E662522977B71008DB601 /* MeSettingViewController.xib */; };
+		859E662A22978482008DB601 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E662822978482008DB601 /* MyInfoViewController.swift */; };
+		859E662B22978482008DB601 /* MyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E662922978482008DB601 /* MyInfoViewController.xib */; };
+		859E662D22978717008DB601 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E662C22978717008DB601 /* BaseClass.swift */; };
+		859E662F22978F4A008DB601 /* MyCollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E662E22978F4A008DB601 /* MyCollViewController.swift */; };
+		859E663222979073008DB601 /* MyCollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E663022979073008DB601 /* MyCollTableViewCell.swift */; };
+		859E663322979073008DB601 /* MyCollTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E663122979073008DB601 /* MyCollTableViewCell.xib */; };
+		859E663A22979A91008DB601 /* MyCollEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E663822979A91008DB601 /* MyCollEditTableViewCell.swift */; };
+		859E663B22979A91008DB601 /* MyCollEditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E663922979A91008DB601 /* MyCollEditTableViewCell.xib */; };
+		859E66422297B095008DB601 /* MyRegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E66402297B095008DB601 /* MyRegisterTableViewCell.swift */; };
+		859E66432297B095008DB601 /* MyRegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E66412297B095008DB601 /* MyRegisterTableViewCell.xib */; };
+		859E66462297B108008DB601 /* MyRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E66442297B108008DB601 /* MyRegisterViewController.swift */; };
+		859E664A2297C5DC008DB601 /* MyRegisterAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E66482297C5DC008DB601 /* MyRegisterAddViewController.swift */; };
+		859E664B2297C5DC008DB601 /* MyRegisterAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E66492297C5DC008DB601 /* MyRegisterAddViewController.xib */; };
+		85A93580229C293D003C13F7 /* CourseTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9357F229C293D003C13F7 /* CourseTopView.swift */; };
+		85A93582229C2945003C13F7 /* CourseTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A93581229C2945003C13F7 /* CourseTopView.xib */; };
+		85A93584229C2B13003C13F7 /* CourseMidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A93583229C2B13003C13F7 /* CourseMidView.swift */; };
+		85A93586229C2B19003C13F7 /* CourseMidView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A93585229C2B19003C13F7 /* CourseMidView.xib */; };
+		85A9DC0E22966A17000A62A9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9DC0D22966A17000A62A9 /* NotificationViewController.swift */; };
+		85A9DC1122966BB3000A62A9 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9DC0F22966BB3000A62A9 /* NotificationTableViewCell.swift */; };
+		85A9DC1222966BB3000A62A9 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A9DC1022966BB3000A62A9 /* NotificationTableViewCell.xib */; };
+		85B0C19422BA760F0020D7B1 /* StudentEvaluateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C19222BA760F0020D7B1 /* StudentEvaluateViewController.swift */; };
+		85B0C19522BA760F0020D7B1 /* StudentEvaluateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0C19322BA760F0020D7B1 /* StudentEvaluateViewController.xib */; };
+		85B0C19822BA77380020D7B1 /* StudentEvaluateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C19622BA77380020D7B1 /* StudentEvaluateTableViewCell.swift */; };
+		85B0C19922BA77380020D7B1 /* StudentEvaluateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0C19722BA77380020D7B1 /* StudentEvaluateTableViewCell.xib */; };
+		85B0C19C22BA83BC0020D7B1 /* OtherGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C19B22BA83BC0020D7B1 /* OtherGroupViewController.swift */; };
+		85B0C1A622BA8BAB0020D7B1 /* OtherGroupSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C1A522BA8BAB0020D7B1 /* OtherGroupSubView.swift */; };
+		85B0C1A822BA8BB10020D7B1 /* OtherGroupSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0C1A722BA8BB10020D7B1 /* OtherGroupSubView.xib */; };
+		85B0C59A22A561EA006EF71A /* CourseDetailMidTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C59922A561EA006EF71A /* CourseDetailMidTopView.swift */; };
+		85B0C59C22A561F1006EF71A /* CourseDetailMidTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0C59B22A561F1006EF71A /* CourseDetailMidTopView.xib */; };
+		85B0C59F22A563E7006EF71A /* CourseDetailMidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0C59D22A563E7006EF71A /* CourseDetailMidTableViewCell.swift */; };
+		85B0C5A022A563E7006EF71A /* CourseDetailMidTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0C59E22A563E7006EF71A /* CourseDetailMidTableViewCell.xib */; };
+		85B4CD07229D1C1500A23693 /* QAAnsAcceptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4CD05229D1C1500A23693 /* QAAnsAcceptTableViewCell.swift */; };
+		85B4CD08229D1C1500A23693 /* QAAnsAcceptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B4CD06229D1C1500A23693 /* QAAnsAcceptTableViewCell.xib */; };
+		85B6276422A4EBBE006D1E25 /* OtherTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6276322A4EBBE006D1E25 /* OtherTool.swift */; };
+		85B6276722A4EC1D006D1E25 /* ParamOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6276622A4EC1D006D1E25 /* ParamOther.swift */; };
+		85C13F9D22729E44007CA3D6 /* HomeTodayCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C13F9C22729E44007CA3D6 /* HomeTodayCourseView.swift */; };
+		85C13F9F22729E4C007CA3D6 /* HomeTodayCourseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C13F9E22729E4C007CA3D6 /* HomeTodayCourseView.xib */; };
+		85C13FA12272A5CE007CA3D6 /* pubXibViewForCopy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C13FA02272A5CE007CA3D6 /* pubXibViewForCopy.xib */; };
+		85C13FA62272F1F9007CA3D6 /* HomeMyDataTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C13FA52272F1F9007CA3D6 /* HomeMyDataTopView.swift */; };
+		85C13FA82272F1FF007CA3D6 /* HomeMyDataTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C13FA72272F1FF007CA3D6 /* HomeMyDataTopView.xib */; };
+		85C13FAA2272F412007CA3D6 /* HomeScoreStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C13FA92272F412007CA3D6 /* HomeScoreStatisticsView.swift */; };
+		85C13FAC2272F6A7007CA3D6 /* HomeScoreStatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C13FAB2272F6A7007CA3D6 /* HomeScoreStatisticsView.xib */; };
+		85C13FAE2273063A007CA3D6 /* HomeScoreDistributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C13FAD2273063A007CA3D6 /* HomeScoreDistributeView.swift */; };
+		85C13FB022730663007CA3D6 /* HomeScoreDistributeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C13FAF22730663007CA3D6 /* HomeScoreDistributeView.xib */; };
+		85D6B4F022FDD489003E4366 /* HomeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6B4EF22FDD489003E4366 /* HomeTool.swift */; };
+		85D6B4F222FDD4A9003E4366 /* ParamHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6B4F122FDD4A9003E4366 /* ParamHome.swift */; };
+		85D6B4F422FDD4B1003E4366 /* ResultHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6B4F322FDD4B1003E4366 /* ResultHome.swift */; };
+		85D80BF52296719E0031D805 /* NotificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80BF32296719E0031D805 /* NotificationDetailViewController.swift */; };
+		85D80BF62296719E0031D805 /* NotificationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D80BF42296719E0031D805 /* NotificationDetailViewController.xib */; };
+		85D80BFC22967AA30031D805 /* MeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80BFB22967AA30031D805 /* MeTopView.swift */; };
+		85D80BFE22967AAE0031D805 /* MeTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D80BFD22967AAE0031D805 /* MeTopView.xib */; };
+		85D80C00229685510031D805 /* MeView_a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80BFF229685510031D805 /* MeView_a.swift */; };
+		85D80C022296855C0031D805 /* MeView_a.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D80C012296855C0031D805 /* MeView_a.xib */; };
+		85D80C04229685C80031D805 /* MeView_b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80C03229685C80031D805 /* MeView_b.swift */; };
+		85D80C06229685D00031D805 /* MeView_c.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D80C05229685D00031D805 /* MeView_c.swift */; };
+		85D80C08229685DD0031D805 /* MeView_b.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D80C07229685DD0031D805 /* MeView_b.xib */; };
+		85D80C0A229685ED0031D805 /* MeView_c.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D80C09229685ED0031D805 /* MeView_c.xib */; };
+		85D9BE6222734060004E9D9F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D9BE6022734060004E9D9F /* WelcomeViewController.swift */; };
+		85D9BE6322734060004E9D9F /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D9BE6122734060004E9D9F /* WelcomeViewController.xib */; };
+		85D9BE6522735E67004E9D9F /* HomeScoreLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D9BE6422735E67004E9D9F /* HomeScoreLevelView.swift */; };
+		85D9BE6722735E6F004E9D9F /* HomeScoreLevelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D9BE6622735E6F004E9D9F /* HomeScoreLevelView.xib */; };
+		85DAA63022B9F0D900E1F704 /* WorkDetailMyWorksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAA62F22B9F0D900E1F704 /* WorkDetailMyWorksView.swift */; };
+		85DAA63222B9F0E000E1F704 /* WorkDetailMyWorksView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DAA63122B9F0E000E1F704 /* WorkDetailMyWorksView.xib */; };
+		85DAA63422B9F33C00E1F704 /* WorkDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAA63322B9F33C00E1F704 /* WorkDetailCellView.swift */; };
+		85DAA63622B9F34300E1F704 /* WorkDetailCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DAA63522B9F34300E1F704 /* WorkDetailCellView.xib */; };
+		85DAA63822B9F95D00E1F704 /* WorkDetailCellViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAA63722B9F95D00E1F704 /* WorkDetailCellViewAdd.swift */; };
+		85DAA63A22B9F96500E1F704 /* WorkDetailCellViewAdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DAA63922B9F96500E1F704 /* WorkDetailCellViewAdd.xib */; };
+		85DBEFB52270C098000E9408 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBEFB42270C098000E9408 /* Extension.swift */; };
+		85DBEFB82270C38F000E9408 /* CheckResViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DBEFB62270C38F000E9408 /* CheckResViewController.swift */; };
+		85DBEFB92270C38F000E9408 /* CheckResViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DBEFB72270C38F000E9408 /* CheckResViewController.xib */; };
+		85E5097D229100EA00B22607 /* HomeTopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5097C229100EA00B22607 /* HomeTopSearchView.swift */; };
+		85E5097F229100F400B22607 /* HomeTopSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E5097E229100F400B22607 /* HomeTopSearchView.xib */; };
+		85E5098222910B3F00B22607 /* HomeDepartmentMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5098022910B3F00B22607 /* HomeDepartmentMissionViewController.swift */; };
+		85E5098322910B3F00B22607 /* HomeDepartmentMissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E5098122910B3F00B22607 /* HomeDepartmentMissionViewController.xib */; };
+		85E5098B2291308100B22607 /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5098A2291308100B22607 /* CommonTool.swift */; };
+		85E509922291439200B22607 /* HomeCoursewareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E509902291439200B22607 /* HomeCoursewareViewController.swift */; };
+		85E509932291439200B22607 /* HomeCoursewareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E509912291439200B22607 /* HomeCoursewareViewController.xib */; };
+		85E50996229148C500B22607 /* HomeCoursewareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E50994229148C500B22607 /* HomeCoursewareCollectionViewCell.swift */; };
+		85E50997229148C500B22607 /* HomeCoursewareCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E50995229148C500B22607 /* HomeCoursewareCollectionViewCell.xib */; };
+		85E509992291530800B22607 /* ZHttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E509982291530800B22607 /* ZHttpTool.swift */; };
+		85E5099B2291539400B22607 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5099A2291539400B22607 /* Header.swift */; };
+		85E5F04C22E7481F00C38707 /* EditHonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5F04B22E7481F00C38707 /* EditHonorViewController.swift */; };
+		85E7DB69226FF5F600167AEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB67226FF5F600167AEA /* LoginViewController.swift */; };
+		85E7DB6A226FF5F600167AEA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB68226FF5F600167AEA /* LoginViewController.xib */; };
+		85E7DB6D22702CC100167AEA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB6B22702CC100167AEA /* RegisterViewController.swift */; };
+		85E7DB6E22702CC100167AEA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB6C22702CC100167AEA /* RegisterViewController.xib */; };
+		85E7DB7122703BA000167AEA /* RegisterVCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB6F22703BA000167AEA /* RegisterVCodeViewController.swift */; };
+		85E7DB7222703BA000167AEA /* RegisterVCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB7022703BA000167AEA /* RegisterVCodeViewController.xib */; };
+		85E7DB75227048FC00167AEA /* RegisterSettingPwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB73227048FB00167AEA /* RegisterSettingPwViewController.swift */; };
+		85E7DB76227048FC00167AEA /* RegisterSettingPwViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB74227048FB00167AEA /* RegisterSettingPwViewController.xib */; };
+		85E7DB7A22704D9500167AEA /* RetrievePwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB7822704D9500167AEA /* RetrievePwViewController.swift */; };
+		85E7DB7B22704D9500167AEA /* RetrievePwViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB7922704D9500167AEA /* RetrievePwViewController.xib */; };
+		85E7DB822270536100167AEA /* RetrievePwSetingPwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB802270536100167AEA /* RetrievePwSetingPwViewController.swift */; };
+		85E7DB832270536100167AEA /* RetrievePwSetingPwViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB812270536100167AEA /* RetrievePwSetingPwViewController.xib */; };
+		85E7DB8722705C2F00167AEA /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7DB8522705C2F00167AEA /* CheckViewController.swift */; };
+		85E7DB8822705C2F00167AEA /* CheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E7DB8622705C2F00167AEA /* CheckViewController.xib */; };
+		85F7039022DCB2BE001A77F4 /* MyHonorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7038E22DCB2BE001A77F4 /* MyHonorTableViewCell.swift */; };
+		85F7039122DCB2BE001A77F4 /* MyHonorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7038F22DCB2BE001A77F4 /* MyHonorTableViewCell.xib */; };
+		85F7039422DCB8C1001A77F4 /* MyHonorCheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7039222DCB8C1001A77F4 /* MyHonorCheckTableViewCell.swift */; };
+		85F7039522DCB8C1001A77F4 /* MyHonorCheckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7039322DCB8C1001A77F4 /* MyHonorCheckTableViewCell.xib */; };
+		85F7039822DCBC34001A77F4 /* MyHonorRejectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7039622DCBC34001A77F4 /* MyHonorRejectTableViewCell.swift */; };
+		85F7039922DCBC34001A77F4 /* MyHonorRejectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7039722DCBC34001A77F4 /* MyHonorRejectTableViewCell.xib */; };
+		85F7039B22DCC04F001A77F4 /* AddHonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7039A22DCC04F001A77F4 /* AddHonorViewController.swift */; };
+		85F7039E22DCC12B001A77F4 /* CommonNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7039D22DCC12B001A77F4 /* CommonNavView.swift */; };
+		85F703A022DCC139001A77F4 /* CommonNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F7039F22DCC139001A77F4 /* CommonNavView.xib */; };
+		85F703A222DCC47B001A77F4 /* AddHonorTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F703A122DCC47B001A77F4 /* AddHonorTopView.swift */; };
+		85F703A422DCC482001A77F4 /* AddHonorTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F703A322DCC482001A77F4 /* AddHonorTopView.xib */; };
+		85FEF55322A029EA00059AE7 /* CourseDetailLeftSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FEF55222A029EA00059AE7 /* CourseDetailLeftSettingView.swift */; };
+		85FEF55522A029F800059AE7 /* CourseDetailLeftSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FEF55422A029F800059AE7 /* CourseDetailLeftSettingView.xib */; };
+		85FEF55722A02DAD00059AE7 /* CourseDetailLeftBaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FEF55622A02DAD00059AE7 /* CourseDetailLeftBaseInfo.swift */; };
+		85FEF55922A02DB400059AE7 /* CourseDetailLeftBaseInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FEF55822A02DB400059AE7 /* CourseDetailLeftBaseInfo.xib */; };
+		85FEF55B22A0338B00059AE7 /* CourseDetailLeftBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FEF55A22A0338B00059AE7 /* CourseDetailLeftBookView.swift */; };
+		85FEF55D22A0339600059AE7 /* CourseDetailLeftBookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FEF55C22A0339600059AE7 /* CourseDetailLeftBookView.xib */; };
+		8E9B44C3D2BBCA0DB949C575 /* Pods_xueguo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8637D242464058D03242C7 /* Pods_xueguo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		858731C2226ECA9300480261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 858731A5226ECA9200480261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 858731AC226ECA9200480261;
+			remoteInfo = xueguo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85BA73982471306B00B50BC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B07A9693CC78D3A105118E5 /* Pods-xueguo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xueguo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xueguo/Pods-xueguo.debug.xcconfig"; sourceTree = "<group>"; };
+		850535AB22B928A7007EF8D8 /* WorkDetailGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailGroupView.swift; sourceTree = "<group>"; };
+		850535AD22B928AF007EF8D8 /* WorkDetailGroupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailGroupView.xib; sourceTree = "<group>"; };
+		850535AF22B92B32007EF8D8 /* WorkDetailGroupMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailGroupMemberView.swift; sourceTree = "<group>"; };
+		850535B122B92B46007EF8D8 /* WorkDetailGroupMemberView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailGroupMemberView.xib; sourceTree = "<group>"; };
+		850608C82301B85C00B9AFCC /* SeeFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFileViewController.swift; sourceTree = "<group>"; };
+		850747B12305A15700BFEF6F /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		850E26F722D97D810096231C /* MyHonorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHonorViewController.swift; sourceTree = "<group>"; };
+		850E26FA22D97EE90096231C /* HonorNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorNavView.swift; sourceTree = "<group>"; };
+		850E26FC22D97EF20096231C /* HonorNavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HonorNavView.xib; sourceTree = "<group>"; };
+		850E26FE22D983CD0096231C /* HonorSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorSectionView.swift; sourceTree = "<group>"; };
+		8515005422E81E6A0045D698 /* CourseTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTool.swift; sourceTree = "<group>"; };
+		8515005622E820580045D698 /* ParamCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamCourse.swift; sourceTree = "<group>"; };
+		8515005822E820620045D698 /* ResultCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCourse.swift; sourceTree = "<group>"; };
+		8515B90D22B211FB002A1A34 /* CourseTaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTaskDetailViewController.swift; sourceTree = "<group>"; };
+		8515B92D22B24B40002A1A34 /* WorkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailViewController.swift; sourceTree = "<group>"; };
+		851F56A123239B37009E349E /* CourseDetailMidMessageViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidMessageViewTableViewCell.swift; sourceTree = "<group>"; };
+		851F56A223239B37009E349E /* CourseDetailMidMessageViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidMessageViewTableViewCell.xib; sourceTree = "<group>"; };
+		851F56A523239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidMessageViewAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		851F56A623239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidMessageViewAnswerTableViewCell.xib; sourceTree = "<group>"; };
+		8522CD4123260D1800ED9562 /* SearchHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryView.swift; sourceTree = "<group>"; };
+		8522CD4523260D3300ED9562 /* SearchHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHistoryView.xib; sourceTree = "<group>"; };
+		852B712E229D311E00D734E6 /* QATool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QATool.swift; sourceTree = "<group>"; };
+		852B7130229D33B600D734E6 /* ResultQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultQA.swift; sourceTree = "<group>"; };
+		853002B522E2BCE000D03EC6 /* AddHonorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHonorCollectionViewCell.swift; sourceTree = "<group>"; };
+		853002B622E2BCE000D03EC6 /* AddHonorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHonorCollectionViewCell.xib; sourceTree = "<group>"; };
+		853002BA22E2C60500D03EC6 /* ParamHonor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamHonor.swift; sourceTree = "<group>"; };
+		853002BC22E2C61000D03EC6 /* ResultHonor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHonor.swift; sourceTree = "<group>"; };
+		853002C022E2EE0400D03EC6 /* HonorUploadSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorUploadSuccessView.swift; sourceTree = "<group>"; };
+		853002C222E2EE0C00D03EC6 /* HonorUploadSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HonorUploadSuccessView.xib; sourceTree = "<group>"; };
+		853002C622E2F20800D03EC6 /* HonorUploadSucViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorUploadSucViewController.swift; sourceTree = "<group>"; };
+		853002C822E2F2D600D03EC6 /* HonorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorDetailViewController.swift; sourceTree = "<group>"; };
+		853002CA22E2F3F400D03EC6 /* HonorDetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorDetailInfoView.swift; sourceTree = "<group>"; };
+		853002CC22E2F47100D03EC6 /* HonorDetailInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HonorDetailInfoView.xib; sourceTree = "<group>"; };
+		853200C0229C1BFA00EBC29A /* QADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QADetailViewController.swift; path = ../QADetailViewController.swift; sourceTree = "<group>"; };
+		853200C2229C1CB200EBC29A /* QAAnsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAAnsTableViewCell.swift; sourceTree = "<group>"; };
+		853200C3229C1CB200EBC29A /* QAAnsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAAnsTableViewCell.xib; sourceTree = "<group>"; };
+		853200C6229C1CC600EBC29A /* QAAskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAAskTableViewCell.swift; sourceTree = "<group>"; };
+		853200C7229C1CC600EBC29A /* QAAskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAAskTableViewCell.xib; sourceTree = "<group>"; };
+		853200CA229C23F800EBC29A /* QAAskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAAskView.swift; sourceTree = "<group>"; };
+		853200CC229C240300EBC29A /* QAAskView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAAskView.xib; sourceTree = "<group>"; };
+		85380646229505C3003A119A /* MeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTool.swift; sourceTree = "<group>"; };
+		853806482295067E003A119A /* ResultMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultMe.swift; sourceTree = "<group>"; };
+		8538064A2295069A003A119A /* ParamMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamMe.swift; sourceTree = "<group>"; };
+		8538065122953DCC003A119A /* HomeResListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResListViewController.swift; sourceTree = "<group>"; };
+		8538065322954057003A119A /* HomeResListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResListTableViewCell.swift; sourceTree = "<group>"; };
+		8538065422954057003A119A /* HomeResListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeResListTableViewCell.xib; sourceTree = "<group>"; };
+		853C6E0F229E152E00D19DA6 /* ParamQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamQA.swift; sourceTree = "<group>"; };
+		853CE57F229B765100AC70A6 /* BaseStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStruct.swift; sourceTree = "<group>"; };
+		853CE581229B931600AC70A6 /* xueguo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xueguo-Bridging-Header.h"; sourceTree = "<group>"; };
+		853CE582229B931700AC70A6 /* justForBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = justForBridge.h; sourceTree = "<group>"; };
+		853CE583229B931700AC70A6 /* justForBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = justForBridge.m; sourceTree = "<group>"; };
+		853CE585229BB1E800AC70A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		853CE587229BB1F200AC70A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		853CE589229BB21600AC70A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		853CE58B229BB21D00AC70A6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		853CE58D229BB22600AC70A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		853CE58F229BB23000AC70A6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		853CE591229BB24300AC70A6 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		853CE597229BBA5900AC70A6 /* QATopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QATopView.swift; sourceTree = "<group>"; };
+		853CE599229BBA5E00AC70A6 /* QATopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QATopView.xib; sourceTree = "<group>"; };
+		853CE59B229BBF4000AC70A6 /* QAListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAListTableViewCell.swift; sourceTree = "<group>"; };
+		853CE59C229BBF4000AC70A6 /* QAListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAListTableViewCell.xib; sourceTree = "<group>"; };
+		853CE59F229BC1F300AC70A6 /* QAMidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAMidView.swift; sourceTree = "<group>"; };
+		853CE5A1229BC1FC00AC70A6 /* QAMidView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAMidView.xib; sourceTree = "<group>"; };
+		853CE5A3229BDB2600AC70A6 /* QANullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QANullView.swift; sourceTree = "<group>"; };
+		853CE5A5229BDB2E00AC70A6 /* QANullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QANullView.xib; sourceTree = "<group>"; };
+		853CE5AF229BE84D00AC70A6 /* QAAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QAAddViewController.swift; path = ../QAAddViewController.swift; sourceTree = "<group>"; };
+		85449309227199250019209A /* HomeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopView.swift; sourceTree = "<group>"; };
+		8544930B227199300019209A /* HomeTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTopView.xib; sourceTree = "<group>"; };
+		8545E54922A603DD00EE09E8 /* CourseDetailMidHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidHeaderView.swift; sourceTree = "<group>"; };
+		8545E54B22A603E300EE09E8 /* CourseDetailMidHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidHeaderView.xib; sourceTree = "<group>"; };
+		8545E56622A62EAB00EE09E8 /* CourseEvaluateTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEvaluateTopView.swift; sourceTree = "<group>"; };
+		8545E56822A62EB500EE09E8 /* CourseEvaluateTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseEvaluateTopView.xib; sourceTree = "<group>"; };
+		8545E56A22A6318E00EE09E8 /* CourseEvaluateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEvaluateTableViewCell.swift; sourceTree = "<group>"; };
+		8545E56B22A6318E00EE09E8 /* CourseEvaluateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseEvaluateTableViewCell.xib; sourceTree = "<group>"; };
+		8545E56E22A6340900EE09E8 /* CourseEvaluateHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEvaluateHeaderView.swift; sourceTree = "<group>"; };
+		8545E57022A6340F00EE09E8 /* CourseEvaluateHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseEvaluateHeaderView.xib; sourceTree = "<group>"; };
+		85549C3E229FB1A3008F56BC /* CourseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListTableViewCell.swift; sourceTree = "<group>"; };
+		85549C3F229FB1A3008F56BC /* CourseListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListTableViewCell.xib; sourceTree = "<group>"; };
+		85549C46229FB1DD008F56BC /* CourseListProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListProgressTableViewCell.swift; sourceTree = "<group>"; };
+		85549C47229FB1DD008F56BC /* CourseListProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseListProgressTableViewCell.xib; sourceTree = "<group>"; };
+		85549C4A229FC6C8008F56BC /* CourseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewController.swift; sourceTree = "<group>"; };
+		85549C4E229FC8F3008F56BC /* CourseDetailTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailTopView.swift; sourceTree = "<group>"; };
+		85549C50229FC8FF008F56BC /* CourseDetailTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailTopView.xib; sourceTree = "<group>"; };
+		855BED8D2325512F00FFCB6E /* CourseTaskDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTaskDetailTableViewCell.swift; sourceTree = "<group>"; };
+		855BED8E2325512F00FFCB6E /* CourseTaskDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTaskDetailTableViewCell.xib; sourceTree = "<group>"; };
+		855BED91232551DB00FFCB6E /* CourseTaskDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTaskDetailHeaderView.swift; sourceTree = "<group>"; };
+		855BED93232551E900FFCB6E /* CourseTaskDetailHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTaskDetailHeaderView.xib; sourceTree = "<group>"; };
+		855BED9623256E8C00FFCB6E /* HomeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchViewController.swift; sourceTree = "<group>"; };
+		855BED9723256E8C00FFCB6E /* HomeSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSearchViewController.xib; sourceTree = "<group>"; };
+		8560CE8422A0F9170079DB0C /* CourseDetailStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailStructViewController.swift; sourceTree = "<group>"; };
+		8560CE8822A0FADA0079DB0C /* CourseDetailStructSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailStructSectionView.swift; sourceTree = "<group>"; };
+		8560CE8C22A0FAEA0079DB0C /* CourseDetailStructSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailStructSectionView.xib; sourceTree = "<group>"; };
+		8560CE8E22A100EA0079DB0C /* CourseDetailStructCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailStructCellView.swift; sourceTree = "<group>"; };
+		8560CE9022A100F60079DB0C /* CourseDetailStructCellViewSec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailStructCellViewSec.swift; sourceTree = "<group>"; };
+		8560CE9222A101010079DB0C /* CourseDetailStructCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailStructCellView.xib; sourceTree = "<group>"; };
+		8560CE9422A1076E0079DB0C /* CourseDetailStructCellViewSec.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailStructCellViewSec.xib; sourceTree = "<group>"; };
+		8560CE9622A11DF90079DB0C /* CourseEvaluateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CourseEvaluateViewController.swift; path = ../CourseEvaluateViewController.swift; sourceTree = "<group>"; };
+		856612ED22B137E90015E168 /* CourseDetailMidMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidMessageView.swift; sourceTree = "<group>"; };
+		856612EF22B137F10015E168 /* CourseDetailMidMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidMessageView.xib; sourceTree = "<group>"; };
+		8569500422A012370021CAC8 /* CourseDetailLeftMyGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailLeftMyGradeView.swift; sourceTree = "<group>"; };
+		8569500622A012400021CAC8 /* CourseDetailLeftMyGradeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailLeftMyGradeView.xib; sourceTree = "<group>"; };
+		8569500822A0192E0021CAC8 /* CourseDetailSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailSectionView.swift; sourceTree = "<group>"; };
+		8569500A22A019370021CAC8 /* CourseDetailSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailSectionView.xib; sourceTree = "<group>"; };
+		8569500C22A01E330021CAC8 /* CourseDetailLeftTeachersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailLeftTeachersView.swift; sourceTree = "<group>"; };
+		8569500E22A01E3A0021CAC8 /* CourseDetailLeftTeachersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailLeftTeachersView.xib; sourceTree = "<group>"; };
+		856A414722B8A5BA00349B47 /* WorkDetailTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailTopView.swift; sourceTree = "<group>"; };
+		856A414922B8A5C100349B47 /* WorkDetailTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailTopView.xib; sourceTree = "<group>"; };
+		857086E62303C908000E6269 /* xg_question.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xg_question.txt; sourceTree = "<group>"; };
+		8571943822FFDFAC00806964 /* CusObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusObject.swift; sourceTree = "<group>"; };
+		8575E6E92292603800B12CFB /* TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEST.swift; sourceTree = "<group>"; };
+		8575E6EC2292753D00B12CFB /* LoginTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTool.swift; sourceTree = "<group>"; };
+		8575E6EE2292786900B12CFB /* ResultLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultLogin.swift; sourceTree = "<group>"; };
+		8575E6F02292787B00B12CFB /* ParamLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamLogin.swift; sourceTree = "<group>"; };
+		8584A8DE230923F000651B1A /* tmp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmp2.png; sourceTree = "<group>"; };
+		858731AD226ECA9200480261 /* xueguo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xueguo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858731B0226ECA9200480261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		858731B2226ECA9200480261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		858731B5226ECA9200480261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		858731B7226ECA9300480261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		858731BA226ECA9300480261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		858731BC226ECA9300480261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858731C1226ECA9300480261 /* xueguoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xueguoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		858731C5226ECA9300480261 /* xueguoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xueguoTests.swift; sourceTree = "<group>"; };
+		858731C7226ECA9300480261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858731D0226ECB5000480261 /* GlobalMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMacro.swift; sourceTree = "<group>"; };
+		858731DA226EE28100480261 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		858731DC226EE28A00480261 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		858731DE226EE29700480261 /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QAViewController.swift; path = ../QAViewController.swift; sourceTree = "<group>"; };
+		858731E0226EE2A100480261 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		858731E2226EE36700480261 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8588A5492337CC7100DAD3A7 /* CourseDetailMidTeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidTeacherView.swift; sourceTree = "<group>"; };
+		8588A54B2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidTeacherViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		8588A54C2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidTeacherViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		858C92C72309B3E800589AAA /* ManagerAliOss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerAliOss.swift; sourceTree = "<group>"; };
+		859E662422977B71008DB601 /* MeSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeSettingViewController.swift; sourceTree = "<group>"; };
+		859E662522977B71008DB601 /* MeSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeSettingViewController.xib; sourceTree = "<group>"; };
+		859E662822978482008DB601 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		859E662922978482008DB601 /* MyInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyInfoViewController.xib; sourceTree = "<group>"; };
+		859E662C22978717008DB601 /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		859E662E22978F4A008DB601 /* MyCollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollViewController.swift; sourceTree = "<group>"; };
+		859E663022979073008DB601 /* MyCollTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollTableViewCell.swift; sourceTree = "<group>"; };
+		859E663122979073008DB601 /* MyCollTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollTableViewCell.xib; sourceTree = "<group>"; };
+		859E663822979A91008DB601 /* MyCollEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollEditTableViewCell.swift; sourceTree = "<group>"; };
+		859E663922979A91008DB601 /* MyCollEditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollEditTableViewCell.xib; sourceTree = "<group>"; };
+		859E66402297B095008DB601 /* MyRegisterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRegisterTableViewCell.swift; sourceTree = "<group>"; };
+		859E66412297B095008DB601 /* MyRegisterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyRegisterTableViewCell.xib; sourceTree = "<group>"; };
+		859E66442297B108008DB601 /* MyRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRegisterViewController.swift; sourceTree = "<group>"; };
+		859E66482297C5DC008DB601 /* MyRegisterAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRegisterAddViewController.swift; sourceTree = "<group>"; };
+		859E66492297C5DC008DB601 /* MyRegisterAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyRegisterAddViewController.xib; sourceTree = "<group>"; };
+		85A9357F229C293D003C13F7 /* CourseTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTopView.swift; sourceTree = "<group>"; };
+		85A93581229C2945003C13F7 /* CourseTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTopView.xib; sourceTree = "<group>"; };
+		85A93583229C2B13003C13F7 /* CourseMidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMidView.swift; sourceTree = "<group>"; };
+		85A93585229C2B19003C13F7 /* CourseMidView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseMidView.xib; sourceTree = "<group>"; };
+		85A9DC0D22966A17000A62A9 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		85A9DC0F22966BB3000A62A9 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		85A9DC1022966BB3000A62A9 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		85B0C19222BA760F0020D7B1 /* StudentEvaluateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEvaluateViewController.swift; sourceTree = "<group>"; };
+		85B0C19322BA760F0020D7B1 /* StudentEvaluateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentEvaluateViewController.xib; sourceTree = "<group>"; };
+		85B0C19622BA77380020D7B1 /* StudentEvaluateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEvaluateTableViewCell.swift; sourceTree = "<group>"; };
+		85B0C19722BA77380020D7B1 /* StudentEvaluateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentEvaluateTableViewCell.xib; sourceTree = "<group>"; };
+		85B0C19B22BA83BC0020D7B1 /* OtherGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherGroupViewController.swift; sourceTree = "<group>"; };
+		85B0C1A522BA8BAB0020D7B1 /* OtherGroupSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherGroupSubView.swift; sourceTree = "<group>"; };
+		85B0C1A722BA8BB10020D7B1 /* OtherGroupSubView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherGroupSubView.xib; sourceTree = "<group>"; };
+		85B0C59922A561EA006EF71A /* CourseDetailMidTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidTopView.swift; sourceTree = "<group>"; };
+		85B0C59B22A561F1006EF71A /* CourseDetailMidTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidTopView.xib; sourceTree = "<group>"; };
+		85B0C59D22A563E7006EF71A /* CourseDetailMidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailMidTableViewCell.swift; sourceTree = "<group>"; };
+		85B0C59E22A563E7006EF71A /* CourseDetailMidTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailMidTableViewCell.xib; sourceTree = "<group>"; };
+		85B4CD05229D1C1500A23693 /* QAAnsAcceptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAAnsAcceptTableViewCell.swift; sourceTree = "<group>"; };
+		85B4CD06229D1C1500A23693 /* QAAnsAcceptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QAAnsAcceptTableViewCell.xib; sourceTree = "<group>"; };
+		85B6276322A4EBBE006D1E25 /* OtherTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTool.swift; sourceTree = "<group>"; };
+		85B6276622A4EC1D006D1E25 /* ParamOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamOther.swift; sourceTree = "<group>"; };
+		85C13F9C22729E44007CA3D6 /* HomeTodayCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTodayCourseView.swift; sourceTree = "<group>"; };
+		85C13F9E22729E4C007CA3D6 /* HomeTodayCourseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTodayCourseView.xib; sourceTree = "<group>"; };
+		85C13FA02272A5CE007CA3D6 /* pubXibViewForCopy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pubXibViewForCopy.xib; sourceTree = "<group>"; };
+		85C13FA52272F1F9007CA3D6 /* HomeMyDataTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMyDataTopView.swift; sourceTree = "<group>"; };
+		85C13FA72272F1FF007CA3D6 /* HomeMyDataTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMyDataTopView.xib; sourceTree = "<group>"; };
+		85C13FA92272F412007CA3D6 /* HomeScoreStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScoreStatisticsView.swift; sourceTree = "<group>"; };
+		85C13FAB2272F6A7007CA3D6 /* HomeScoreStatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScoreStatisticsView.xib; sourceTree = "<group>"; };
+		85C13FAD2273063A007CA3D6 /* HomeScoreDistributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScoreDistributeView.swift; sourceTree = "<group>"; };
+		85C13FAF22730663007CA3D6 /* HomeScoreDistributeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScoreDistributeView.xib; sourceTree = "<group>"; };
+		85D6B4EF22FDD489003E4366 /* HomeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTool.swift; sourceTree = "<group>"; };
+		85D6B4F122FDD4A9003E4366 /* ParamHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamHome.swift; sourceTree = "<group>"; };
+		85D6B4F322FDD4B1003E4366 /* ResultHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHome.swift; sourceTree = "<group>"; };
+		85D80BF32296719E0031D805 /* NotificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailViewController.swift; sourceTree = "<group>"; };
+		85D80BF42296719E0031D805 /* NotificationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationDetailViewController.xib; sourceTree = "<group>"; };
+		85D80BFB22967AA30031D805 /* MeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTopView.swift; sourceTree = "<group>"; };
+		85D80BFD22967AAE0031D805 /* MeTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeTopView.xib; sourceTree = "<group>"; };
+		85D80BFF229685510031D805 /* MeView_a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView_a.swift; sourceTree = "<group>"; };
+		85D80C012296855C0031D805 /* MeView_a.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeView_a.xib; sourceTree = "<group>"; };
+		85D80C03229685C80031D805 /* MeView_b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView_b.swift; sourceTree = "<group>"; };
+		85D80C05229685D00031D805 /* MeView_c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView_c.swift; sourceTree = "<group>"; };
+		85D80C07229685DD0031D805 /* MeView_b.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeView_b.xib; sourceTree = "<group>"; };
+		85D80C09229685ED0031D805 /* MeView_c.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeView_c.xib; sourceTree = "<group>"; };
+		85D9BE6022734060004E9D9F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		85D9BE6122734060004E9D9F /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		85D9BE6422735E67004E9D9F /* HomeScoreLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScoreLevelView.swift; sourceTree = "<group>"; };
+		85D9BE6622735E6F004E9D9F /* HomeScoreLevelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScoreLevelView.xib; sourceTree = "<group>"; };
+		85DAA62F22B9F0D900E1F704 /* WorkDetailMyWorksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailMyWorksView.swift; sourceTree = "<group>"; };
+		85DAA63122B9F0E000E1F704 /* WorkDetailMyWorksView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailMyWorksView.xib; sourceTree = "<group>"; };
+		85DAA63322B9F33C00E1F704 /* WorkDetailCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailCellView.swift; sourceTree = "<group>"; };
+		85DAA63522B9F34300E1F704 /* WorkDetailCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailCellView.xib; sourceTree = "<group>"; };
+		85DAA63722B9F95D00E1F704 /* WorkDetailCellViewAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailCellViewAdd.swift; sourceTree = "<group>"; };
+		85DAA63922B9F96500E1F704 /* WorkDetailCellViewAdd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailCellViewAdd.xib; sourceTree = "<group>"; };
+		85DBEFB42270C098000E9408 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		85DBEFB62270C38F000E9408 /* CheckResViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckResViewController.swift; sourceTree = "<group>"; };
+		85DBEFB72270C38F000E9408 /* CheckResViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckResViewController.xib; sourceTree = "<group>"; };
+		85E5097C229100EA00B22607 /* HomeTopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopSearchView.swift; sourceTree = "<group>"; };
+		85E5097E229100F400B22607 /* HomeTopSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTopSearchView.xib; sourceTree = "<group>"; };
+		85E5098022910B3F00B22607 /* HomeDepartmentMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepartmentMissionViewController.swift; sourceTree = "<group>"; };
+		85E5098122910B3F00B22607 /* HomeDepartmentMissionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDepartmentMissionViewController.xib; sourceTree = "<group>"; };
+		85E5098A2291308100B22607 /* CommonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTool.swift; sourceTree = "<group>"; };
+		85E509902291439200B22607 /* HomeCoursewareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoursewareViewController.swift; sourceTree = "<group>"; };
+		85E509912291439200B22607 /* HomeCoursewareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCoursewareViewController.xib; sourceTree = "<group>"; };
+		85E50994229148C500B22607 /* HomeCoursewareCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoursewareCollectionViewCell.swift; sourceTree = "<group>"; };
+		85E50995229148C500B22607 /* HomeCoursewareCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCoursewareCollectionViewCell.xib; sourceTree = "<group>"; };
+		85E509982291530800B22607 /* ZHttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHttpTool.swift; sourceTree = "<group>"; };
+		85E5099A2291539400B22607 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		85E5F04B22E7481F00C38707 /* EditHonorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHonorViewController.swift; sourceTree = "<group>"; };
+		85E7DB67226FF5F600167AEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85E7DB68226FF5F600167AEA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		85E7DB6B22702CC100167AEA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		85E7DB6C22702CC100167AEA /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		85E7DB6F22703BA000167AEA /* RegisterVCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVCodeViewController.swift; sourceTree = "<group>"; };
+		85E7DB7022703BA000167AEA /* RegisterVCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVCodeViewController.xib; sourceTree = "<group>"; };
+		85E7DB73227048FB00167AEA /* RegisterSettingPwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSettingPwViewController.swift; sourceTree = "<group>"; };
+		85E7DB74227048FB00167AEA /* RegisterSettingPwViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterSettingPwViewController.xib; sourceTree = "<group>"; };
+		85E7DB7822704D9500167AEA /* RetrievePwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePwViewController.swift; sourceTree = "<group>"; };
+		85E7DB7922704D9500167AEA /* RetrievePwViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RetrievePwViewController.xib; sourceTree = "<group>"; };
+		85E7DB802270536100167AEA /* RetrievePwSetingPwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePwSetingPwViewController.swift; sourceTree = "<group>"; };
+		85E7DB812270536100167AEA /* RetrievePwSetingPwViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RetrievePwSetingPwViewController.xib; sourceTree = "<group>"; };
+		85E7DB8522705C2F00167AEA /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		85E7DB8622705C2F00167AEA /* CheckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckViewController.xib; sourceTree = "<group>"; };
+		85F7038E22DCB2BE001A77F4 /* MyHonorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHonorTableViewCell.swift; sourceTree = "<group>"; };
+		85F7038F22DCB2BE001A77F4 /* MyHonorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyHonorTableViewCell.xib; sourceTree = "<group>"; };
+		85F7039222DCB8C1001A77F4 /* MyHonorCheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHonorCheckTableViewCell.swift; sourceTree = "<group>"; };
+		85F7039322DCB8C1001A77F4 /* MyHonorCheckTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyHonorCheckTableViewCell.xib; sourceTree = "<group>"; };
+		85F7039622DCBC34001A77F4 /* MyHonorRejectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHonorRejectTableViewCell.swift; sourceTree = "<group>"; };
+		85F7039722DCBC34001A77F4 /* MyHonorRejectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyHonorRejectTableViewCell.xib; sourceTree = "<group>"; };
+		85F7039A22DCC04F001A77F4 /* AddHonorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHonorViewController.swift; sourceTree = "<group>"; };
+		85F7039D22DCC12B001A77F4 /* CommonNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonNavView.swift; sourceTree = "<group>"; };
+		85F7039F22DCC139001A77F4 /* CommonNavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonNavView.xib; sourceTree = "<group>"; };
+		85F703A122DCC47B001A77F4 /* AddHonorTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHonorTopView.swift; sourceTree = "<group>"; };
+		85F703A322DCC482001A77F4 /* AddHonorTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHonorTopView.xib; sourceTree = "<group>"; };
+		85FEF55222A029EA00059AE7 /* CourseDetailLeftSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailLeftSettingView.swift; sourceTree = "<group>"; };
+		85FEF55422A029F800059AE7 /* CourseDetailLeftSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailLeftSettingView.xib; sourceTree = "<group>"; };
+		85FEF55622A02DAD00059AE7 /* CourseDetailLeftBaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailLeftBaseInfo.swift; sourceTree = "<group>"; };
+		85FEF55822A02DB400059AE7 /* CourseDetailLeftBaseInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailLeftBaseInfo.xib; sourceTree = "<group>"; };
+		85FEF55A22A0338B00059AE7 /* CourseDetailLeftBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailLeftBookView.swift; sourceTree = "<group>"; };
+		85FEF55C22A0339600059AE7 /* CourseDetailLeftBookView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailLeftBookView.xib; sourceTree = "<group>"; };
+		C740639BC1C06E99FA1C05AA /* Pods-xueguo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xueguo.release.xcconfig"; path = "Pods/Target Support Files/Pods-xueguo/Pods-xueguo.release.xcconfig"; sourceTree = "<group>"; };
+		DB8637D242464058D03242C7 /* Pods_xueguo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xueguo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858731AA226ECA9200480261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850747B22305A15700BFEF6F /* QuickLook.framework in Frameworks */,
+				853CE592229BB24300AC70A6 /* Photos.framework in Frameworks */,
+				853CE590229BB23000AC70A6 /* libc++.tbd in Frameworks */,
+				853CE58E229BB22600AC70A6 /* libz.tbd in Frameworks */,
+				853CE58C229BB21D00AC70A6 /* CoreTelephony.framework in Frameworks */,
+				853CE58A229BB21600AC70A6 /* SystemConfiguration.framework in Frameworks */,
+				853CE588229BB1F200AC70A6 /* libsqlite3.tbd in Frameworks */,
+				853CE586229BB1E900AC70A6 /* CoreGraphics.framework in Frameworks */,
+				8E9B44C3D2BBCA0DB949C575 /* Pods_xueguo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858731BE226ECA9300480261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055D8BC1579A220D8459DA17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B07A9693CC78D3A105118E5 /* Pods-xueguo.debug.xcconfig */,
+				C740639BC1C06E99FA1C05AA /* Pods-xueguo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		850608C72301B84300B9AFCC /* 查看文件 */ = {
+			isa = PBXGroup;
+			children = (
+				850608C82301B85C00B9AFCC /* SeeFileViewController.swift */,
+			);
+			path = "查看文件";
+			sourceTree = "<group>";
+		};
+		850E26F322D97D4D0096231C /* 我的荣誉 */ = {
+			isa = PBXGroup;
+			children = (
+				850E26F722D97D810096231C /* MyHonorViewController.swift */,
+				85F7039A22DCC04F001A77F4 /* AddHonorViewController.swift */,
+				853002C622E2F20800D03EC6 /* HonorUploadSucViewController.swift */,
+				853002C822E2F2D600D03EC6 /* HonorDetailViewController.swift */,
+				85E5F04B22E7481F00C38707 /* EditHonorViewController.swift */,
+				853002B922E2C51400D03EC6 /* Models */,
+				850E26F922D97DFE0096231C /* Views */,
+				853002BA22E2C60500D03EC6 /* ParamHonor.swift */,
+				853002BC22E2C61000D03EC6 /* ResultHonor.swift */,
+			);
+			path = "我的荣誉";
+			sourceTree = "<group>";
+		};
+		850E26F922D97DFE0096231C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				850E26FA22D97EE90096231C /* HonorNavView.swift */,
+				850E26FC22D97EF20096231C /* HonorNavView.xib */,
+				850E26FE22D983CD0096231C /* HonorSectionView.swift */,
+				85F7038E22DCB2BE001A77F4 /* MyHonorTableViewCell.swift */,
+				85F7038F22DCB2BE001A77F4 /* MyHonorTableViewCell.xib */,
+				85F7039222DCB8C1001A77F4 /* MyHonorCheckTableViewCell.swift */,
+				85F7039322DCB8C1001A77F4 /* MyHonorCheckTableViewCell.xib */,
+				85F7039622DCBC34001A77F4 /* MyHonorRejectTableViewCell.swift */,
+				85F7039722DCBC34001A77F4 /* MyHonorRejectTableViewCell.xib */,
+				85F703A122DCC47B001A77F4 /* AddHonorTopView.swift */,
+				85F703A322DCC482001A77F4 /* AddHonorTopView.xib */,
+				853002B522E2BCE000D03EC6 /* AddHonorCollectionViewCell.swift */,
+				853002B622E2BCE000D03EC6 /* AddHonorCollectionViewCell.xib */,
+				853002C022E2EE0400D03EC6 /* HonorUploadSuccessView.swift */,
+				853002C222E2EE0C00D03EC6 /* HonorUploadSuccessView.xib */,
+				853002CA22E2F3F400D03EC6 /* HonorDetailInfoView.swift */,
+				853002CC22E2F47100D03EC6 /* HonorDetailInfoView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8515B90C22B211DB002A1A34 /* 评核任务 */ = {
+			isa = PBXGroup;
+			children = (
+				8515B90D22B211FB002A1A34 /* CourseTaskDetailViewController.swift */,
+				8515B92322B22D7B002A1A34 /* Views */,
+			);
+			path = "评核任务";
+			sourceTree = "<group>";
+		};
+		8515B92322B22D7B002A1A34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				855BED8D2325512F00FFCB6E /* CourseTaskDetailTableViewCell.swift */,
+				855BED8E2325512F00FFCB6E /* CourseTaskDetailTableViewCell.xib */,
+				855BED91232551DB00FFCB6E /* CourseTaskDetailHeaderView.swift */,
+				855BED93232551E900FFCB6E /* CourseTaskDetailHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8515B92C22B24AEE002A1A34 /* 作业详情 */ = {
+			isa = PBXGroup;
+			children = (
+				8515B92D22B24B40002A1A34 /* WorkDetailViewController.swift */,
+				856A414622B8A59D00349B47 /* Views */,
+			);
+			path = "作业详情";
+			sourceTree = "<group>";
+		};
+		851F569A23237E34009E349E /* 就业登记 */ = {
+			isa = PBXGroup;
+			children = (
+				859E66442297B108008DB601 /* MyRegisterViewController.swift */,
+				859E66482297C5DC008DB601 /* MyRegisterAddViewController.swift */,
+				859E66492297C5DC008DB601 /* MyRegisterAddViewController.xib */,
+				851F569B23237E5B009E349E /* Views */,
+			);
+			path = "就业登记";
+			sourceTree = "<group>";
+		};
+		851F569B23237E5B009E349E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		853002B922E2C51400D03EC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		853806442295059F003A119A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				859E662422977B71008DB601 /* MeSettingViewController.swift */,
+				859E662522977B71008DB601 /* MeSettingViewController.xib */,
+				859E662822978482008DB601 /* MyInfoViewController.swift */,
+				859E662922978482008DB601 /* MyInfoViewController.xib */,
+				859E662E22978F4A008DB601 /* MyCollViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		853CE593229BB83C00AC70A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				853CE597229BBA5900AC70A6 /* QATopView.swift */,
+				853CE599229BBA5E00AC70A6 /* QATopView.xib */,
+				853CE59B229BBF4000AC70A6 /* QAListTableViewCell.swift */,
+				853CE59C229BBF4000AC70A6 /* QAListTableViewCell.xib */,
+				853CE59F229BC1F300AC70A6 /* QAMidView.swift */,
+				853CE5A1229BC1FC00AC70A6 /* QAMidView.xib */,
+				853CE5A3229BDB2600AC70A6 /* QANullView.swift */,
+				853CE5A5229BDB2E00AC70A6 /* QANullView.xib */,
+				853200C2229C1CB200EBC29A /* QAAnsTableViewCell.swift */,
+				853200C3229C1CB200EBC29A /* QAAnsTableViewCell.xib */,
+				853200C6229C1CC600EBC29A /* QAAskTableViewCell.swift */,
+				853200C7229C1CC600EBC29A /* QAAskTableViewCell.xib */,
+				85B4CD05229D1C1500A23693 /* QAAnsAcceptTableViewCell.swift */,
+				85B4CD06229D1C1500A23693 /* QAAnsAcceptTableViewCell.xib */,
+				853200CA229C23F800EBC29A /* QAAskView.swift */,
+				853200CC229C240300EBC29A /* QAAskView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		854493012271547C0019209A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85E5097C229100EA00B22607 /* HomeTopSearchView.swift */,
+				85E5097E229100F400B22607 /* HomeTopSearchView.xib */,
+				85449309227199250019209A /* HomeTopView.swift */,
+				8544930B227199300019209A /* HomeTopView.xib */,
+				85C13F9C22729E44007CA3D6 /* HomeTodayCourseView.swift */,
+				85C13F9E22729E4C007CA3D6 /* HomeTodayCourseView.xib */,
+				85C13FA52272F1F9007CA3D6 /* HomeMyDataTopView.swift */,
+				85C13FA72272F1FF007CA3D6 /* HomeMyDataTopView.xib */,
+				85C13FA92272F412007CA3D6 /* HomeScoreStatisticsView.swift */,
+				85C13FAB2272F6A7007CA3D6 /* HomeScoreStatisticsView.xib */,
+				85C13FAD2273063A007CA3D6 /* HomeScoreDistributeView.swift */,
+				85C13FAF22730663007CA3D6 /* HomeScoreDistributeView.xib */,
+				85D9BE6422735E67004E9D9F /* HomeScoreLevelView.swift */,
+				85D9BE6622735E6F004E9D9F /* HomeScoreLevelView.xib */,
+				85E50994229148C500B22607 /* HomeCoursewareCollectionViewCell.swift */,
+				85E50995229148C500B22607 /* HomeCoursewareCollectionViewCell.xib */,
+				8538065322954057003A119A /* HomeResListTableViewCell.swift */,
+				8538065422954057003A119A /* HomeResListTableViewCell.xib */,
+				85A9DC0F22966BB3000A62A9 /* NotificationTableViewCell.swift */,
+				85A9DC1022966BB3000A62A9 /* NotificationTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8545E56522A62E9800EE09E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8545E56622A62EAB00EE09E8 /* CourseEvaluateTopView.swift */,
+				8545E56822A62EB500EE09E8 /* CourseEvaluateTopView.xib */,
+				8545E56A22A6318E00EE09E8 /* CourseEvaluateTableViewCell.swift */,
+				8545E56B22A6318E00EE09E8 /* CourseEvaluateTableViewCell.xib */,
+				8545E56E22A6340900EE09E8 /* CourseEvaluateHeaderView.swift */,
+				8545E57022A6340F00EE09E8 /* CourseEvaluateHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		855BED9523256DEC00FFCB6E /* 搜索详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				855BED9623256E8C00FFCB6E /* HomeSearchViewController.swift */,
+				855BED9723256E8C00FFCB6E /* HomeSearchViewController.xib */,
+				855BED9A232571AB00FFCB6E /* views */,
+			);
+			path = "搜索详情页";
+			sourceTree = "<group>";
+		};
+		855BED9A232571AB00FFCB6E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8522CD4123260D1800ED9562 /* SearchHistoryView.swift */,
+				8522CD4523260D3300ED9562 /* SearchHistoryView.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8560CE8622A0FA9B0079DB0C /* 分值结构 */ = {
+			isa = PBXGroup;
+			children = (
+				8560CE8422A0F9170079DB0C /* CourseDetailStructViewController.swift */,
+				8560CE8722A0FAAA0079DB0C /* Views */,
+			);
+			path = "分值结构";
+			sourceTree = "<group>";
+		};
+		8560CE8722A0FAAA0079DB0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8560CE8822A0FADA0079DB0C /* CourseDetailStructSectionView.swift */,
+				8560CE8C22A0FAEA0079DB0C /* CourseDetailStructSectionView.xib */,
+				8560CE8E22A100EA0079DB0C /* CourseDetailStructCellView.swift */,
+				8560CE9222A101010079DB0C /* CourseDetailStructCellView.xib */,
+				8560CE9022A100F60079DB0C /* CourseDetailStructCellViewSec.swift */,
+				8560CE9422A1076E0079DB0C /* CourseDetailStructCellViewSec.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		856A414622B8A59D00349B47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				856A414722B8A5BA00349B47 /* WorkDetailTopView.swift */,
+				856A414922B8A5C100349B47 /* WorkDetailTopView.xib */,
+				850535AB22B928A7007EF8D8 /* WorkDetailGroupView.swift */,
+				850535AD22B928AF007EF8D8 /* WorkDetailGroupView.xib */,
+				850535AF22B92B32007EF8D8 /* WorkDetailGroupMemberView.swift */,
+				850535B122B92B46007EF8D8 /* WorkDetailGroupMemberView.xib */,
+				85DAA62F22B9F0D900E1F704 /* WorkDetailMyWorksView.swift */,
+				85DAA63122B9F0E000E1F704 /* WorkDetailMyWorksView.xib */,
+				85DAA63322B9F33C00E1F704 /* WorkDetailCellView.swift */,
+				85DAA63522B9F34300E1F704 /* WorkDetailCellView.xib */,
+				85DAA63722B9F95D00E1F704 /* WorkDetailCellViewAdd.swift */,
+				85DAA63922B9F96500E1F704 /* WorkDetailCellViewAdd.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8575E6EB2292752D00B12CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8575E6EE2292786900B12CFB /* ResultLogin.swift */,
+				8575E6F02292787B00B12CFB /* ParamLogin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		858731A4226ECA9200480261 = {
+			isa = PBXGroup;
+			children = (
+				858731AF226ECA9200480261 /* xueguo */,
+				858731C4226ECA9300480261 /* xueguoTests */,
+				858731AE226ECA9200480261 /* Products */,
+				055D8BC1579A220D8459DA17 /* Pods */,
+				A97931EF731C7BFB66BD2289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		858731AE226ECA9200480261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858731AD226ECA9200480261 /* xueguo.app */,
+				858731C1226ECA9300480261 /* xueguoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858731AF226ECA9200480261 /* xueguo */ = {
+			isa = PBXGroup;
+			children = (
+				853CE581229B931600AC70A6 /* xueguo-Bridging-Header.h */,
+				8575E6E92292603800B12CFB /* TEST.swift */,
+				85C13FA02272A5CE007CA3D6 /* pubXibViewForCopy.xib */,
+				858731D2226ECB5900480261 /* Home */,
+				858731D5226ECBA300480261 /* Course */,
+				858731D6226ECBAC00480261 /* QA */,
+				858731D3226ECB6000480261 /* Me */,
+				85E7DB7722704D4000167AEA /* Login */,
+				858731D4226ECB6400480261 /* Other */,
+				858731B0226ECA9200480261 /* AppDelegate.swift */,
+				858731B2226ECA9200480261 /* ViewController.swift */,
+				858731B4226ECA9200480261 /* Main.storyboard */,
+				858731B7226ECA9300480261 /* Assets.xcassets */,
+				858731B9226ECA9300480261 /* LaunchScreen.storyboard */,
+				858731BC226ECA9300480261 /* Info.plist */,
+			);
+			path = xueguo;
+			sourceTree = "<group>";
+		};
+		858731C4226ECA9300480261 /* xueguoTests */ = {
+			isa = PBXGroup;
+			children = (
+				858731C5226ECA9300480261 /* xueguoTests.swift */,
+				858731C7226ECA9300480261 /* Info.plist */,
+			);
+			path = xueguoTests;
+			sourceTree = "<group>";
+		};
+		858731D2226ECB5900480261 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				85D6B4EF22FDD489003E4366 /* HomeTool.swift */,
+				85D6B4F122FDD4A9003E4366 /* ParamHome.swift */,
+				85D6B4F322FDD4B1003E4366 /* ResultHome.swift */,
+				858731DA226EE28100480261 /* HomeViewController.swift */,
+				85D80BF72296782E0031D805 /* Con */,
+				854493012271547C0019209A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		858731D3226ECB6000480261 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				85380646229505C3003A119A /* MeTool.swift */,
+				8538064A2295069A003A119A /* ParamMe.swift */,
+				853806482295067E003A119A /* ResultMe.swift */,
+				858731E0226EE2A100480261 /* MeViewController.swift */,
+				850E26F322D97D4D0096231C /* 我的荣誉 */,
+				851F569A23237E34009E349E /* 就业登记 */,
+				853806442295059F003A119A /* Controller */,
+				85D80BF822967A390031D805 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		858731D4226ECB6400480261 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				85BA732C24712B7400B50BC1 /* handyjson */,
+				858C92C62309B3CD00589AAA /* ali */,
+				85F7039C22DCC103001A77F4 /* Views */,
+				85B6276322A4EBBE006D1E25 /* OtherTool.swift */,
+				85B6276522A4EBF5006D1E25 /* Model */,
+				85E50987229121EB00B22607 /* Tool */,
+				85D9BE6022734060004E9D9F /* WelcomeViewController.swift */,
+				85D9BE6122734060004E9D9F /* WelcomeViewController.xib */,
+				85DBEFB42270C098000E9408 /* Extension.swift */,
+				8571943822FFDFAC00806964 /* CusObject.swift */,
+				858731D0226ECB5000480261 /* GlobalMacro.swift */,
+				858731E2226EE36700480261 /* RootViewController.swift */,
+				85E5098422911FFC00B22607 /* res */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		858731D5226ECBA300480261 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				8515005422E81E6A0045D698 /* CourseTool.swift */,
+				8515005622E820580045D698 /* ParamCourse.swift */,
+				8515005822E820620045D698 /* ResultCourse.swift */,
+				85F0610E229FD85C00D21565 /* 课程首页 */,
+				85F0610F229FD86800D21565 /* 课程详情页 */,
+				8515B90C22B211DB002A1A34 /* 评核任务 */,
+				8515B92C22B24AEE002A1A34 /* 作业详情 */,
+				850608C72301B84300B9AFCC /* 查看文件 */,
+				8560CE8622A0FA9B0079DB0C /* 分值结构 */,
+				85B0C19A22BA82DF0020D7B1 /* 其他分组 */,
+				85B0C18C22BA75140020D7B1 /* 学生互评 */,
+				85B6276822A52AF2006D1E25 /* 课程评测 */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		858731D6226ECBAC00480261 /* QA */ = {
+			isa = PBXGroup;
+			children = (
+				852B712E229D311E00D734E6 /* QATool.swift */,
+				852B7130229D33B600D734E6 /* ResultQA.swift */,
+				853C6E0F229E152E00D19DA6 /* ParamQA.swift */,
+				85B4CD09229D30CD00A23693 /* Cons */,
+				853CE593229BB83C00AC70A6 /* Views */,
+			);
+			path = QA;
+			sourceTree = "<group>";
+		};
+		858C92C62309B3CD00589AAA /* ali */ = {
+			isa = PBXGroup;
+			children = (
+				858C92C72309B3E800589AAA /* ManagerAliOss.swift */,
+			);
+			path = ali;
+			sourceTree = "<group>";
+		};
+		85A9357E229C292A003C13F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85A9357F229C293D003C13F7 /* CourseTopView.swift */,
+				85A93581229C2945003C13F7 /* CourseTopView.xib */,
+				85A93583229C2B13003C13F7 /* CourseMidView.swift */,
+				85A93585229C2B19003C13F7 /* CourseMidView.xib */,
+				85549C3E229FB1A3008F56BC /* CourseListTableViewCell.swift */,
+				85549C3F229FB1A3008F56BC /* CourseListTableViewCell.xib */,
+				85549C46229FB1DD008F56BC /* CourseListProgressTableViewCell.swift */,
+				85549C47229FB1DD008F56BC /* CourseListProgressTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85B0C18C22BA75140020D7B1 /* 学生互评 */ = {
+			isa = PBXGroup;
+			children = (
+				85B0C19222BA760F0020D7B1 /* StudentEvaluateViewController.swift */,
+				85B0C19322BA760F0020D7B1 /* StudentEvaluateViewController.xib */,
+				85B0C19622BA77380020D7B1 /* StudentEvaluateTableViewCell.swift */,
+				85B0C19722BA77380020D7B1 /* StudentEvaluateTableViewCell.xib */,
+			);
+			path = "学生互评";
+			sourceTree = "<group>";
+		};
+		85B0C19A22BA82DF0020D7B1 /* 其他分组 */ = {
+			isa = PBXGroup;
+			children = (
+				85B0C19B22BA83BC0020D7B1 /* OtherGroupViewController.swift */,
+				85B0C1A522BA8BAB0020D7B1 /* OtherGroupSubView.swift */,
+				85B0C1A722BA8BB10020D7B1 /* OtherGroupSubView.xib */,
+			);
+			path = "其他分组";
+			sourceTree = "<group>";
+		};
+		85B4CD09229D30CD00A23693 /* Cons */ = {
+			isa = PBXGroup;
+			children = (
+				858731DE226EE29700480261 /* QAViewController.swift */,
+				853CE5AF229BE84D00AC70A6 /* QAAddViewController.swift */,
+				853200C0229C1BFA00EBC29A /* QADetailViewController.swift */,
+			);
+			path = Cons;
+			sourceTree = "<group>";
+		};
+		85B6276522A4EBF5006D1E25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85B6276622A4EC1D006D1E25 /* ParamOther.swift */,
+				853CE57F229B765100AC70A6 /* BaseStruct.swift */,
+				859E662C22978717008DB601 /* BaseClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85B6276822A52AF2006D1E25 /* 课程评测 */ = {
+			isa = PBXGroup;
+			children = (
+				8560CE9622A11DF90079DB0C /* CourseEvaluateViewController.swift */,
+				8545E56522A62E9800EE09E8 /* Views */,
+			);
+			path = "课程评测";
+			sourceTree = "<group>";
+		};
+		85BA732C24712B7400B50BC1 /* handyjson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handyjson;
+			sourceTree = "<group>";
+		};
+		85D80BF72296782E0031D805 /* Con */ = {
+			isa = PBXGroup;
+			children = (
+				85E5098022910B3F00B22607 /* HomeDepartmentMissionViewController.swift */,
+				85E5098122910B3F00B22607 /* HomeDepartmentMissionViewController.xib */,
+				85E509902291439200B22607 /* HomeCoursewareViewController.swift */,
+				85E509912291439200B22607 /* HomeCoursewareViewController.xib */,
+				8538065122953DCC003A119A /* HomeResListViewController.swift */,
+				85A9DC0D22966A17000A62A9 /* NotificationViewController.swift */,
+				85D80BF32296719E0031D805 /* NotificationDetailViewController.swift */,
+				85D80BF42296719E0031D805 /* NotificationDetailViewController.xib */,
+				855BED9523256DEC00FFCB6E /* 搜索详情页 */,
+			);
+			path = Con;
+			sourceTree = "<group>";
+		};
+		85D80BF822967A390031D805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85D80BFB22967AA30031D805 /* MeTopView.swift */,
+				85D80BFD22967AAE0031D805 /* MeTopView.xib */,
+				85D80BFF229685510031D805 /* MeView_a.swift */,
+				85D80C012296855C0031D805 /* MeView_a.xib */,
+				85D80C03229685C80031D805 /* MeView_b.swift */,
+				85D80C07229685DD0031D805 /* MeView_b.xib */,
+				85D80C05229685D00031D805 /* MeView_c.swift */,
+				85D80C09229685ED0031D805 /* MeView_c.xib */,
+				859E663022979073008DB601 /* MyCollTableViewCell.swift */,
+				859E663122979073008DB601 /* MyCollTableViewCell.xib */,
+				859E663822979A91008DB601 /* MyCollEditTableViewCell.swift */,
+				859E663922979A91008DB601 /* MyCollEditTableViewCell.xib */,
+				859E66402297B095008DB601 /* MyRegisterTableViewCell.swift */,
+				859E66412297B095008DB601 /* MyRegisterTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85E5098422911FFC00B22607 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				857086E62303C908000E6269 /* xg_question.txt */,
+				853CE582229B931700AC70A6 /* justForBridge.h */,
+				8584A8DE230923F000651B1A /* tmp2.png */,
+				853CE583229B931700AC70A6 /* justForBridge.m */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		85E50987229121EB00B22607 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				85E5099A2291539400B22607 /* Header.swift */,
+				85E5098A2291308100B22607 /* CommonTool.swift */,
+				85E509982291530800B22607 /* ZHttpTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		85E7DB7722704D4000167AEA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8575E6EC2292753D00B12CFB /* LoginTool.swift */,
+				8575E6EB2292752D00B12CFB /* Model */,
+				85E7DB8422705BF500167AEA /* 审核相关 */,
+				85E7DB67226FF5F600167AEA /* LoginViewController.swift */,
+				85E7DB68226FF5F600167AEA /* LoginViewController.xib */,
+				85E7DB6B22702CC100167AEA /* RegisterViewController.swift */,
+				85E7DB6C22702CC100167AEA /* RegisterViewController.xib */,
+				85E7DB6F22703BA000167AEA /* RegisterVCodeViewController.swift */,
+				85E7DB7022703BA000167AEA /* RegisterVCodeViewController.xib */,
+				85E7DB73227048FB00167AEA /* RegisterSettingPwViewController.swift */,
+				85E7DB74227048FB00167AEA /* RegisterSettingPwViewController.xib */,
+				85E7DB7822704D9500167AEA /* RetrievePwViewController.swift */,
+				85E7DB7922704D9500167AEA /* RetrievePwViewController.xib */,
+				85E7DB802270536100167AEA /* RetrievePwSetingPwViewController.swift */,
+				85E7DB812270536100167AEA /* RetrievePwSetingPwViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		85E7DB8422705BF500167AEA /* 审核相关 */ = {
+			isa = PBXGroup;
+			children = (
+				85E7DB8522705C2F00167AEA /* CheckViewController.swift */,
+				85E7DB8622705C2F00167AEA /* CheckViewController.xib */,
+				85DBEFB62270C38F000E9408 /* CheckResViewController.swift */,
+				85DBEFB72270C38F000E9408 /* CheckResViewController.xib */,
+			);
+			path = "审核相关";
+			sourceTree = "<group>";
+		};
+		85F0610E229FD85C00D21565 /* 课程首页 */ = {
+			isa = PBXGroup;
+			children = (
+				858731DC226EE28A00480261 /* CourseViewController.swift */,
+				85A9357E229C292A003C13F7 /* Views */,
+			);
+			path = "课程首页";
+			sourceTree = "<group>";
+		};
+		85F0610F229FD86800D21565 /* 课程详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				85549C4A229FC6C8008F56BC /* CourseDetailViewController.swift */,
+				85F06110229FD88400D21565 /* Views */,
+			);
+			path = "课程详情页";
+			sourceTree = "<group>";
+		};
+		85F06110229FD88400D21565 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85549C4E229FC8F3008F56BC /* CourseDetailTopView.swift */,
+				85549C50229FC8FF008F56BC /* CourseDetailTopView.xib */,
+				8569500422A012370021CAC8 /* CourseDetailLeftMyGradeView.swift */,
+				8569500622A012400021CAC8 /* CourseDetailLeftMyGradeView.xib */,
+				8569500822A0192E0021CAC8 /* CourseDetailSectionView.swift */,
+				8569500A22A019370021CAC8 /* CourseDetailSectionView.xib */,
+				8569500C22A01E330021CAC8 /* CourseDetailLeftTeachersView.swift */,
+				8569500E22A01E3A0021CAC8 /* CourseDetailLeftTeachersView.xib */,
+				85FEF55222A029EA00059AE7 /* CourseDetailLeftSettingView.swift */,
+				85FEF55422A029F800059AE7 /* CourseDetailLeftSettingView.xib */,
+				85FEF55622A02DAD00059AE7 /* CourseDetailLeftBaseInfo.swift */,
+				85FEF55822A02DB400059AE7 /* CourseDetailLeftBaseInfo.xib */,
+				85FEF55A22A0338B00059AE7 /* CourseDetailLeftBookView.swift */,
+				85FEF55C22A0339600059AE7 /* CourseDetailLeftBookView.xib */,
+				85B0C59922A561EA006EF71A /* CourseDetailMidTopView.swift */,
+				85B0C59B22A561F1006EF71A /* CourseDetailMidTopView.xib */,
+				85B0C59D22A563E7006EF71A /* CourseDetailMidTableViewCell.swift */,
+				85B0C59E22A563E7006EF71A /* CourseDetailMidTableViewCell.xib */,
+				8545E54922A603DD00EE09E8 /* CourseDetailMidHeaderView.swift */,
+				8545E54B22A603E300EE09E8 /* CourseDetailMidHeaderView.xib */,
+				856612ED22B137E90015E168 /* CourseDetailMidMessageView.swift */,
+				856612EF22B137F10015E168 /* CourseDetailMidMessageView.xib */,
+				851F56A123239B37009E349E /* CourseDetailMidMessageViewTableViewCell.swift */,
+				851F56A223239B37009E349E /* CourseDetailMidMessageViewTableViewCell.xib */,
+				851F56A523239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.swift */,
+				851F56A623239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.xib */,
+				8588A5492337CC7100DAD3A7 /* CourseDetailMidTeacherView.swift */,
+				8588A54B2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.swift */,
+				8588A54C2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85F7039C22DCC103001A77F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85F7039D22DCC12B001A77F4 /* CommonNavView.swift */,
+				85F7039F22DCC139001A77F4 /* CommonNavView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A97931EF731C7BFB66BD2289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				850747B12305A15700BFEF6F /* QuickLook.framework */,
+				853CE591229BB24300AC70A6 /* Photos.framework */,
+				853CE58F229BB23000AC70A6 /* libc++.tbd */,
+				853CE58D229BB22600AC70A6 /* libz.tbd */,
+				853CE58B229BB21D00AC70A6 /* CoreTelephony.framework */,
+				853CE589229BB21600AC70A6 /* SystemConfiguration.framework */,
+				853CE587229BB1F200AC70A6 /* libsqlite3.tbd */,
+				853CE585229BB1E800AC70A6 /* CoreGraphics.framework */,
+				DB8637D242464058D03242C7 /* Pods_xueguo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858731AC226ECA9200480261 /* xueguo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858731CA226ECA9300480261 /* Build configuration list for PBXNativeTarget "xueguo" */;
+			buildPhases = (
+				9C1CB83422688B5F9098596A /* [CP] Check Pods Manifest.lock */,
+				858731A9226ECA9200480261 /* Sources */,
+				858731AA226ECA9200480261 /* Frameworks */,
+				858731AB226ECA9200480261 /* Resources */,
+				B49E394F74E8B0317A17C53F /* [CP] Embed Pods Frameworks */,
+				90865DF66A06D878527041E4 /* [CP] Copy Pods Resources */,
+				85BA73982471306B00B50BC1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xueguo;
+			productName = xueguo;
+			productReference = 858731AD226ECA9200480261 /* xueguo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		858731C0226ECA9300480261 /* xueguoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858731CD226ECA9300480261 /* Build configuration list for PBXNativeTarget "xueguoTests" */;
+			buildPhases = (
+				858731BD226ECA9300480261 /* Sources */,
+				858731BE226ECA9300480261 /* Frameworks */,
+				858731BF226ECA9300480261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858731C3226ECA9300480261 /* PBXTargetDependency */,
+			);
+			name = xueguoTests;
+			productName = xueguoTests;
+			productReference = 858731C1226ECA9300480261 /* xueguoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858731A5226ECA9200480261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = free;
+				TargetAttributes = {
+					858731AC226ECA9200480261 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					858731C0226ECA9300480261 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 858731AC226ECA9200480261;
+					};
+				};
+			};
+			buildConfigurationList = 858731A8226ECA9200480261 /* Build configuration list for PBXProject "xueguo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 858731A4226ECA9200480261;
+			productRefGroup = 858731AE226ECA9200480261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858731AC226ECA9200480261 /* xueguo */,
+				858731C0226ECA9300480261 /* xueguoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858731AB226ECA9200480261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8545E56922A62EB500EE09E8 /* CourseEvaluateTopView.xib in Resources */,
+				857086E72303C908000E6269 /* xg_question.txt in Resources */,
+				85E50997229148C500B22607 /* HomeCoursewareCollectionViewCell.xib in Resources */,
+				85E7DB76227048FC00167AEA /* RegisterSettingPwViewController.xib in Resources */,
+				850E26FD22D97EF20096231C /* HonorNavView.xib in Resources */,
+				85D80C022296855C0031D805 /* MeView_a.xib in Resources */,
+				8584A8DF230923F100651B1A /* tmp2.png in Resources */,
+				85549C41229FB1A3008F56BC /* CourseListTableViewCell.xib in Resources */,
+				859E66432297B095008DB601 /* MyRegisterTableViewCell.xib in Resources */,
+				85B0C19522BA760F0020D7B1 /* StudentEvaluateViewController.xib in Resources */,
+				85549C49229FB1DD008F56BC /* CourseListProgressTableViewCell.xib in Resources */,
+				855BED9923256E8C00FFCB6E /* HomeSearchViewController.xib in Resources */,
+				851F56A823239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.xib in Resources */,
+				853200C5229C1CB200EBC29A /* QAAnsTableViewCell.xib in Resources */,
+				851F56A423239B37009E349E /* CourseDetailMidMessageViewTableViewCell.xib in Resources */,
+				85E7DB8822705C2F00167AEA /* CheckViewController.xib in Resources */,
+				859E664B2297C5DC008DB601 /* MyRegisterAddViewController.xib in Resources */,
+				85FEF55522A029F800059AE7 /* CourseDetailLeftSettingView.xib in Resources */,
+				85F703A422DCC482001A77F4 /* AddHonorTopView.xib in Resources */,
+				85B0C5A022A563E7006EF71A /* CourseDetailMidTableViewCell.xib in Resources */,
+				85A93582229C2945003C13F7 /* CourseTopView.xib in Resources */,
+				85E7DB7B22704D9500167AEA /* RetrievePwViewController.xib in Resources */,
+				85E7DB6A226FF5F600167AEA /* LoginViewController.xib in Resources */,
+				8538065622954058003A119A /* HomeResListTableViewCell.xib in Resources */,
+				85E7DB6E22702CC100167AEA /* RegisterViewController.xib in Resources */,
+				8545E54C22A603E300EE09E8 /* CourseDetailMidHeaderView.xib in Resources */,
+				850535B222B92B46007EF8D8 /* WorkDetailGroupMemberView.xib in Resources */,
+				853200C9229C1CC600EBC29A /* QAAskTableViewCell.xib in Resources */,
+				85E5098322910B3F00B22607 /* HomeDepartmentMissionViewController.xib in Resources */,
+				859E663B22979A91008DB601 /* MyCollEditTableViewCell.xib in Resources */,
+				8569500B22A019370021CAC8 /* CourseDetailSectionView.xib in Resources */,
+				856A414A22B8A5C100349B47 /* WorkDetailTopView.xib in Resources */,
+				85FEF55922A02DB400059AE7 /* CourseDetailLeftBaseInfo.xib in Resources */,
+				85E5097F229100F400B22607 /* HomeTopSearchView.xib in Resources */,
+				85E7DB832270536100167AEA /* RetrievePwSetingPwViewController.xib in Resources */,
+				8569500722A012400021CAC8 /* CourseDetailLeftMyGradeView.xib in Resources */,
+				853CE59A229BBA5E00AC70A6 /* QATopView.xib in Resources */,
+				8522CD4623260D3300ED9562 /* SearchHistoryView.xib in Resources */,
+				8560CE8D22A0FAEA0079DB0C /* CourseDetailStructSectionView.xib in Resources */,
+				85D80C0A229685ED0031D805 /* MeView_c.xib in Resources */,
+				855BED94232551E900FFCB6E /* CourseTaskDetailHeaderView.xib in Resources */,
+				85E509932291439200B22607 /* HomeCoursewareViewController.xib in Resources */,
+				85A93586229C2B19003C13F7 /* CourseMidView.xib in Resources */,
+				85F703A022DCC139001A77F4 /* CommonNavView.xib in Resources */,
+				853200CD229C240300EBC29A /* QAAskView.xib in Resources */,
+				853002CD22E2F47100D03EC6 /* HonorDetailInfoView.xib in Resources */,
+				85DAA63622B9F34300E1F704 /* WorkDetailCellView.xib in Resources */,
+				85F7039922DCBC34001A77F4 /* MyHonorRejectTableViewCell.xib in Resources */,
+				85FEF55D22A0339600059AE7 /* CourseDetailLeftBookView.xib in Resources */,
+				85B0C1A822BA8BB10020D7B1 /* OtherGroupSubView.xib in Resources */,
+				8560CE9522A1076E0079DB0C /* CourseDetailStructCellViewSec.xib in Resources */,
+				85D9BE6722735E6F004E9D9F /* HomeScoreLevelView.xib in Resources */,
+				85C13FB022730663007CA3D6 /* HomeScoreDistributeView.xib in Resources */,
+				858731BB226ECA9300480261 /* LaunchScreen.storyboard in Resources */,
+				85DAA63222B9F0E000E1F704 /* WorkDetailMyWorksView.xib in Resources */,
+				855BED902325512F00FFCB6E /* CourseTaskDetailTableViewCell.xib in Resources */,
+				853002C322E2EE0C00D03EC6 /* HonorUploadSuccessView.xib in Resources */,
+				85DAA63A22B9F96500E1F704 /* WorkDetailCellViewAdd.xib in Resources */,
+				859E662722977B71008DB601 /* MeSettingViewController.xib in Resources */,
+				85F7039522DCB8C1001A77F4 /* MyHonorCheckTableViewCell.xib in Resources */,
+				856612F022B137F10015E168 /* CourseDetailMidMessageView.xib in Resources */,
+				85D80BFE22967AAE0031D805 /* MeTopView.xib in Resources */,
+				8569500F22A01E3A0021CAC8 /* CourseDetailLeftTeachersView.xib in Resources */,
+				85E7DB7222703BA000167AEA /* RegisterVCodeViewController.xib in Resources */,
+				859E663322979073008DB601 /* MyCollTableViewCell.xib in Resources */,
+				853CE59E229BBF4000AC70A6 /* QAListTableViewCell.xib in Resources */,
+				8560CE9322A101010079DB0C /* CourseDetailStructCellView.xib in Resources */,
+				85B0C59C22A561F1006EF71A /* CourseDetailMidTopView.xib in Resources */,
+				85C13FA12272A5CE007CA3D6 /* pubXibViewForCopy.xib in Resources */,
+				85A9DC1222966BB3000A62A9 /* NotificationTableViewCell.xib in Resources */,
+				858731B8226ECA9300480261 /* Assets.xcassets in Resources */,
+				85DBEFB92270C38F000E9408 /* CheckResViewController.xib in Resources */,
+				8544930C227199300019209A /* HomeTopView.xib in Resources */,
+				85549C51229FC8FF008F56BC /* CourseDetailTopView.xib in Resources */,
+				85F7039122DCB2BE001A77F4 /* MyHonorTableViewCell.xib in Resources */,
+				853002B822E2BCE000D03EC6 /* AddHonorCollectionViewCell.xib in Resources */,
+				85B4CD08229D1C1500A23693 /* QAAnsAcceptTableViewCell.xib in Resources */,
+				8545E56D22A6318E00EE09E8 /* CourseEvaluateTableViewCell.xib in Resources */,
+				85B0C19922BA77380020D7B1 /* StudentEvaluateTableViewCell.xib in Resources */,
+				85D9BE6322734060004E9D9F /* WelcomeViewController.xib in Resources */,
+				85C13FA82272F1FF007CA3D6 /* HomeMyDataTopView.xib in Resources */,
+				85C13FAC2272F6A7007CA3D6 /* HomeScoreStatisticsView.xib in Resources */,
+				853CE5A2229BC1FC00AC70A6 /* QAMidView.xib in Resources */,
+				85C13F9F22729E4C007CA3D6 /* HomeTodayCourseView.xib in Resources */,
+				859E662B22978482008DB601 /* MyInfoViewController.xib in Resources */,
+				8588A54E2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.xib in Resources */,
+				8545E57122A6340F00EE09E8 /* CourseEvaluateHeaderView.xib in Resources */,
+				85D80BF62296719E0031D805 /* NotificationDetailViewController.xib in Resources */,
+				853CE5A6229BDB2E00AC70A6 /* QANullView.xib in Resources */,
+				85D80C08229685DD0031D805 /* MeView_b.xib in Resources */,
+				850535AE22B928AF007EF8D8 /* WorkDetailGroupView.xib in Resources */,
+				858731B6226ECA9200480261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858731BF226ECA9300480261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90865DF66A06D878527041E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1CB83422688B5F9098596A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xueguo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49E394F74E8B0317A17C53F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xueguo/Pods-xueguo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858731A9226ECA9200480261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E7DB7122703BA000167AEA /* RegisterVCodeViewController.swift in Sources */,
+				853806492295067E003A119A /* ResultMe.swift in Sources */,
+				8560CE9122A100F60079DB0C /* CourseDetailStructCellViewSec.swift in Sources */,
+				852B712F229D311E00D734E6 /* QATool.swift in Sources */,
+				851F56A323239B37009E349E /* CourseDetailMidMessageViewTableViewCell.swift in Sources */,
+				858C92C82309B3E800589AAA /* ManagerAliOss.swift in Sources */,
+				85DAA63822B9F95D00E1F704 /* WorkDetailCellViewAdd.swift in Sources */,
+				85E7DB69226FF5F600167AEA /* LoginViewController.swift in Sources */,
+				85E509992291530800B22607 /* ZHttpTool.swift in Sources */,
+				8560CE8922A0FADA0079DB0C /* CourseDetailStructSectionView.swift in Sources */,
+				8560CE8F22A100EA0079DB0C /* CourseDetailStructCellView.swift in Sources */,
+				853CE5A0229BC1F300AC70A6 /* QAMidView.swift in Sources */,
+				85380647229505C3003A119A /* MeTool.swift in Sources */,
+				85FEF55322A029EA00059AE7 /* CourseDetailLeftSettingView.swift in Sources */,
+				8575E6EA2292603900B12CFB /* TEST.swift in Sources */,
+				85549C40229FB1A3008F56BC /* CourseListTableViewCell.swift in Sources */,
+				85D80C00229685510031D805 /* MeView_a.swift in Sources */,
+				850E26FB22D97EE90096231C /* HonorNavView.swift in Sources */,
+				853CE580229B765100AC70A6 /* BaseStruct.swift in Sources */,
+				859E663222979073008DB601 /* MyCollTableViewCell.swift in Sources */,
+				85E5F04C22E7481F00C38707 /* EditHonorViewController.swift in Sources */,
+				85C13FAA2272F412007CA3D6 /* HomeScoreStatisticsView.swift in Sources */,
+				85FEF55722A02DAD00059AE7 /* CourseDetailLeftBaseInfo.swift in Sources */,
+				85F7039E22DCC12B001A77F4 /* CommonNavView.swift in Sources */,
+				8575E6ED2292753D00B12CFB /* LoginTool.swift in Sources */,
+				85B0C19C22BA83BC0020D7B1 /* OtherGroupViewController.swift in Sources */,
+				85E7DB6D22702CC100167AEA /* RegisterViewController.swift in Sources */,
+				85E7DB8722705C2F00167AEA /* CheckViewController.swift in Sources */,
+				85F7039822DCBC34001A77F4 /* MyHonorRejectTableViewCell.swift in Sources */,
+				85E50996229148C500B22607 /* HomeCoursewareCollectionViewCell.swift in Sources */,
+				8515005722E820580045D698 /* ParamCourse.swift in Sources */,
+				8560CE9722A11DF90079DB0C /* CourseEvaluateViewController.swift in Sources */,
+				853CE5B0229BE84D00AC70A6 /* QAAddViewController.swift in Sources */,
+				8588A54D2337D10500DAD3A7 /* CourseDetailMidTeacherViewCollectionViewCell.swift in Sources */,
+				85DBEFB82270C38F000E9408 /* CheckResViewController.swift in Sources */,
+				853C6E10229E152E00D19DA6 /* ParamQA.swift in Sources */,
+				858731DB226EE28100480261 /* HomeViewController.swift in Sources */,
+				853002BB22E2C60500D03EC6 /* ParamHonor.swift in Sources */,
+				853CE598229BBA5900AC70A6 /* QATopView.swift in Sources */,
+				8575E6F12292787B00B12CFB /* ParamLogin.swift in Sources */,
+				858731D1226ECB5000480261 /* GlobalMacro.swift in Sources */,
+				853CE584229B931700AC70A6 /* justForBridge.m in Sources */,
+				859E664A2297C5DC008DB601 /* MyRegisterAddViewController.swift in Sources */,
+				85D9BE6222734060004E9D9F /* WelcomeViewController.swift in Sources */,
+				8515005522E81E6A0045D698 /* CourseTool.swift in Sources */,
+				8545E56F22A6340900EE09E8 /* CourseEvaluateHeaderView.swift in Sources */,
+				856A414822B8A5BA00349B47 /* WorkDetailTopView.swift in Sources */,
+				85E7DB75227048FC00167AEA /* RegisterSettingPwViewController.swift in Sources */,
+				852B7131229D33B600D734E6 /* ResultQA.swift in Sources */,
+				85DBEFB52270C098000E9408 /* Extension.swift in Sources */,
+				8569500D22A01E330021CAC8 /* CourseDetailLeftTeachersView.swift in Sources */,
+				858731E1226EE2A100480261 /* MeViewController.swift in Sources */,
+				8515B90E22B211FB002A1A34 /* CourseTaskDetailViewController.swift in Sources */,
+				85D80BF52296719E0031D805 /* NotificationDetailViewController.swift in Sources */,
+				853200C1229C1BFA00EBC29A /* QADetailViewController.swift in Sources */,
+				8538065222953DCC003A119A /* HomeResListViewController.swift in Sources */,
+				85A93584229C2B13003C13F7 /* CourseMidView.swift in Sources */,
+				859E663A22979A91008DB601 /* MyCollEditTableViewCell.swift in Sources */,
+				8569500922A0192E0021CAC8 /* CourseDetailSectionView.swift in Sources */,
+				85E5099B2291539400B22607 /* Header.swift in Sources */,
+				8538065522954058003A119A /* HomeResListTableViewCell.swift in Sources */,
+				85D6B4F222FDD4A9003E4366 /* ParamHome.swift in Sources */,
+				85549C4C229FC6C8008F56BC /* CourseDetailViewController.swift in Sources */,
+				85E5097D229100EA00B22607 /* HomeTopSearchView.swift in Sources */,
+				855BED9823256E8C00FFCB6E /* HomeSearchViewController.swift in Sources */,
+				85C13FA62272F1F9007CA3D6 /* HomeMyDataTopView.swift in Sources */,
+				85E5098222910B3F00B22607 /* HomeDepartmentMissionViewController.swift in Sources */,
+				850535B022B92B32007EF8D8 /* WorkDetailGroupMemberView.swift in Sources */,
+				858731DF226EE29700480261 /* QAViewController.swift in Sources */,
+				85E7DB822270536100167AEA /* RetrievePwSetingPwViewController.swift in Sources */,
+				853002BD22E2C61000D03EC6 /* ResultHonor.swift in Sources */,
+				8538064B2295069A003A119A /* ParamMe.swift in Sources */,
+				850535AC22B928A7007EF8D8 /* WorkDetailGroupView.swift in Sources */,
+				8571943922FFDFAC00806964 /* CusObject.swift in Sources */,
+				85549C48229FB1DD008F56BC /* CourseListProgressTableViewCell.swift in Sources */,
+				8575E6EF2292786900B12CFB /* ResultLogin.swift in Sources */,
+				859E66422297B095008DB601 /* MyRegisterTableViewCell.swift in Sources */,
+				85549C4F229FC8F3008F56BC /* CourseDetailTopView.swift in Sources */,
+				858731B3226ECA9200480261 /* ViewController.swift in Sources */,
+				85B0C59F22A563E7006EF71A /* CourseDetailMidTableViewCell.swift in Sources */,
+				859E662622977B71008DB601 /* MeSettingViewController.swift in Sources */,
+				85D6B4F022FDD489003E4366 /* HomeTool.swift in Sources */,
+				8515B92E22B24B40002A1A34 /* WorkDetailViewController.swift in Sources */,
+				85E7DB7A22704D9500167AEA /* RetrievePwViewController.swift in Sources */,
+				8522CD4223260D1900ED9562 /* SearchHistoryView.swift in Sources */,
+				8515005922E820620045D698 /* ResultCourse.swift in Sources */,
+				851F56A723239B65009E349E /* CourseDetailMidMessageViewAnswerTableViewCell.swift in Sources */,
+				85A9DC0E22966A17000A62A9 /* NotificationViewController.swift in Sources */,
+				859E662D22978717008DB601 /* BaseClass.swift in Sources */,
+				85D80BFC22967AA30031D805 /* MeTopView.swift in Sources */,
+				8544930A227199250019209A /* HomeTopView.swift in Sources */,
+				85F7039B22DCC04F001A77F4 /* AddHonorViewController.swift in Sources */,
+				85B0C19422BA760F0020D7B1 /* StudentEvaluateViewController.swift in Sources */,
+				850E26F822D97D810096231C /* MyHonorViewController.swift in Sources */,
+				85DAA63422B9F33C00E1F704 /* WorkDetailCellView.swift in Sources */,
+				853CE59D229BBF4000AC70A6 /* QAListTableViewCell.swift in Sources */,
+				853002CB22E2F3F400D03EC6 /* HonorDetailInfoView.swift in Sources */,
+				853002C722E2F20800D03EC6 /* HonorUploadSucViewController.swift in Sources */,
+				85A93580229C293D003C13F7 /* CourseTopView.swift in Sources */,
+				85A9DC1122966BB3000A62A9 /* NotificationTableViewCell.swift in Sources */,
+				85DAA63022B9F0D900E1F704 /* WorkDetailMyWorksView.swift in Sources */,
+				85D6B4F422FDD4B1003E4366 /* ResultHome.swift in Sources */,
+				8569500522A012380021CAC8 /* CourseDetailLeftMyGradeView.swift in Sources */,
+				8545E56C22A6318E00EE09E8 /* CourseEvaluateTableViewCell.swift in Sources */,
+				853200CB229C23F800EBC29A /* QAAskView.swift in Sources */,
+				85D80C06229685D00031D805 /* MeView_c.swift in Sources */,
+				853CE5A4229BDB2600AC70A6 /* QANullView.swift in Sources */,
+				85B0C19822BA77380020D7B1 /* StudentEvaluateTableViewCell.swift in Sources */,
+				859E662F22978F4A008DB601 /* MyCollViewController.swift in Sources */,
+				859E66462297B108008DB601 /* MyRegisterViewController.swift in Sources */,
+				850E26FF22D983CD0096231C /* HonorSectionView.swift in Sources */,
+				8545E56722A62EAB00EE09E8 /* CourseEvaluateTopView.swift in Sources */,
+				853200C4229C1CB200EBC29A /* QAAnsTableViewCell.swift in Sources */,
+				859E662A22978482008DB601 /* MyInfoViewController.swift in Sources */,
+				856612EE22B137E90015E168 /* CourseDetailMidMessageView.swift in Sources */,
+				858731B1226ECA9200480261 /* AppDelegate.swift in Sources */,
+				85FEF55B22A0338B00059AE7 /* CourseDetailLeftBookView.swift in Sources */,
+				853002C122E2EE0400D03EC6 /* HonorUploadSuccessView.swift in Sources */,
+				85B6276422A4EBBE006D1E25 /* OtherTool.swift in Sources */,
+				855BED8F2325512F00FFCB6E /* CourseTaskDetailTableViewCell.swift in Sources */,
+				855BED92232551DB00FFCB6E /* CourseTaskDetailHeaderView.swift in Sources */,
+				858731E3226EE36700480261 /* RootViewController.swift in Sources */,
+				853002B722E2BCE000D03EC6 /* AddHonorCollectionViewCell.swift in Sources */,
+				85B0C59A22A561EA006EF71A /* CourseDetailMidTopView.swift in Sources */,
+				85D80C04229685C80031D805 /* MeView_b.swift in Sources */,
+				8588A54A2337CC7100DAD3A7 /* CourseDetailMidTeacherView.swift in Sources */,
+				85B4CD07229D1C1500A23693 /* QAAnsAcceptTableViewCell.swift in Sources */,
+				85F7039022DCB2BE001A77F4 /* MyHonorTableViewCell.swift in Sources */,
+				85C13FAE2273063A007CA3D6 /* HomeScoreDistributeView.swift in Sources */,
+				850608C92301B85C00B9AFCC /* SeeFileViewController.swift in Sources */,
+				858731DD226EE28A00480261 /* CourseViewController.swift in Sources */,
+				853002C922E2F2D600D03EC6 /* HonorDetailViewController.swift in Sources */,
+				85F7039422DCB8C1001A77F4 /* MyHonorCheckTableViewCell.swift in Sources */,
+				85C13F9D22729E44007CA3D6 /* HomeTodayCourseView.swift in Sources */,
+				85B6276722A4EC1D006D1E25 /* ParamOther.swift in Sources */,
+				85B0C1A622BA8BAB0020D7B1 /* OtherGroupSubView.swift in Sources */,
+				85F703A222DCC47B001A77F4 /* AddHonorTopView.swift in Sources */,
+				85E509922291439200B22607 /* HomeCoursewareViewController.swift in Sources */,
+				85E5098B2291308100B22607 /* CommonTool.swift in Sources */,
+				8545E54A22A603DD00EE09E8 /* CourseDetailMidHeaderView.swift in Sources */,
+				85D9BE6522735E67004E9D9F /* HomeScoreLevelView.swift in Sources */,
+				853200C8229C1CC600EBC29A /* QAAskTableViewCell.swift in Sources */,
+				8560CE8522A0F9170079DB0C /* CourseDetailStructViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858731BD226ECA9300480261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858731C6226ECA9300480261 /* xueguoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		858731C3226ECA9300480261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 858731AC226ECA9200480261 /* xueguo */;
+			targetProxy = 858731C2226ECA9300480261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		858731B4226ECA9200480261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858731B5226ECA9200480261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		858731B9226ECA9300480261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858731BA226ECA9300480261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858731C8226ECA9300480261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		858731C9226ECA9300480261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858731CB226ECA9300480261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B07A9693CC78D3A105118E5 /* Pods-xueguo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 399K563JTU;
+				INFOPLIST_FILE = xueguo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djwh.temp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "xueguo/xueguo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		858731CC226ECA9300480261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C740639BC1C06E99FA1C05AA /* Pods-xueguo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = SX5738UA97;
+				INFOPLIST_FILE = xueguo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XueGuoFuture.XueGuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dis_profile;
+				SWIFT_OBJC_BRIDGING_HEADER = "xueguo/xueguo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		858731CE226ECA9300480261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG49572PG7;
+				INFOPLIST_FILE = xueguoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.xueguoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xueguo.app/xueguo";
+			};
+			name = Debug;
+		};
+		858731CF226ECA9300480261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG49572PG7;
+				INFOPLIST_FILE = xueguoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.xueguoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xueguo.app/xueguo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858731A8226ECA9200480261 /* Build configuration list for PBXProject "xueguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858731C8226ECA9300480261 /* Debug */,
+				858731C9226ECA9300480261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858731CA226ECA9300480261 /* Build configuration list for PBXNativeTarget "xueguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858731CB226ECA9300480261 /* Debug */,
+				858731CC226ECA9300480261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858731CD226ECA9300480261 /* Build configuration list for PBXNativeTarget "xueguoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858731CE226ECA9300480261 /* Debug */,
+				858731CF226ECA9300480261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858731A5226ECA9200480261 /* Project object */;
+}
